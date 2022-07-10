@@ -1,0 +1,2557 @@
+----------------------------------------
+Directories:
+ App:  /Users/dfranzen/go/
+ Rsrc: /Users/dfranzen/go/bin/
+ Sup:  /Users/dfranzen/Library/Application Support/
+ Cach: /Users/dfranzen/Library/Caches/
+ Tmp:  /var/folders/s5/snw7vcwd3k17yww113sr0j_40000gn/T/
+ Out:  /Users/dfranzen/Library/Application Support/Adobe/CameraRaw/
+ Home: /Users/dfranzen/
+ Shared app data: /Library/Application Support/
+ Lib:: /Users/dfranzen/Library/
+cr_sdk_initialize: cr_validate 15.0 (Macintosh), version 15.0x1139, 64-bit, Release
+gDNGMaxSIMD: 1
+Memory allocator: baseline (cr_memory_allocator)
+libdispatch threading: yes
+thread type: dispatch
+ACE thread type: dispatch
+OS: 12.4
+CPU: Apple M1
+MPProcessorCount (hyperthreading = false): 8
+MPProcessorCount (hyperthreading = true): 8
+MPThreadCount: 8
+std::thread::hardware_concurrency: 8
+AVX support: no
+AVX2 support: no
+AVX512 support: no
+System physical RAM: 16 GB
+Initialize GPU system
+Read GPU config
+Safe load GPU
+Building pipeline states for Apple M1
+Loaded GPU system: Metal
+GPU primary driver version: 12.4.0
+GPU device count: 1
+GPU device names: Apple M1
+GPU3 allow list: yes
+GPU3 deny list: no
+GPU3 prev digest: A54B74EE0A8FE6CBFF3FD0E8CEBC4D5E
+GPU3 new digest: A54B74EE0A8FE6CBFF3FD0E8CEBC4D5E
+Need to run gpu self tests : False.
+GPU Init Status (part 1): I2_GPU2
+GPU3 Hard Status Result (part 1): unknown
+GPU3 Soft Status Result (part 1): success
+GPU4 Hard Status Result (part 1): unknown
+GPU4 Soft Status Result (part 1): success
+Apple M1: Building compute pipeline state (1/253): TestNOPCompute
+MaxTotalThreadsPerThreadGroup: TestNOPCompute,1024,1024
+Apple M1: Building compute pipeline state (2/253): Test1dFunctionsCompute
+MaxTotalThreadsPerThreadGroup: Test1dFunctionsCompute,896,896
+Apple M1: Building compute pipeline state (3/253): TestComputeCompute
+MaxTotalThreadsPerThreadGroup: TestComputeCompute,1024,1024
+Apple M1: Building compute pipeline state (4/253): TestComputeSpeedCompute
+MaxTotalThreadsPerThreadGroup: TestComputeSpeedCompute,1024,1024
+Apple M1: Building compute pipeline state (5/253): TestDispatchIndirectFillBuffersCompute
+MaxTotalThreadsPerThreadGroup: TestDispatchIndirectFillBuffersCompute,1024,1024
+Apple M1: Building compute pipeline state (6/253): TestDispatchIndirectRecordInfoCompute
+MaxTotalThreadsPerThreadGroup: TestDispatchIndirectRecordInfoCompute,1024,1024
+Apple M1: Building compute pipeline state (7/253): TestDoRenderCompute
+MaxTotalThreadsPerThreadGroup: TestDoRenderCompute,1024,1024
+Apple M1: Building compute pipeline state (8/253): TestMarkTip32Compute
+MaxTotalThreadsPerThreadGroup: TestMarkTip32Compute,1024,1024
+Apple M1: Building compute pipeline state (9/253): TestShader1_BufInPlace_2D_R32FloatCompute
+MaxTotalThreadsPerThreadGroup: TestShader1_BufInPlace_2D_R32FloatCompute,1024,1024
+Apple M1: Building compute pipeline state (10/253): TestShader1_BufPingPong_2D_R32FloatCompute
+MaxTotalThreadsPerThreadGroup: TestShader1_BufPingPong_2D_R32FloatCompute,1024,1024
+Apple M1: Building compute pipeline state (11/253): TestShader1_TexPingPong_2DCompute
+MaxTotalThreadsPerThreadGroup: TestShader1_TexPingPong_2DCompute,1024,1024
+Apple M1: Building compute pipeline state (12/253): AutoLateralCAWarpTransformCompute
+MaxTotalThreadsPerThreadGroup: AutoLateralCAWarpTransformCompute,1024,1024
+Apple M1: Building compute pipeline state (13/253): Blur1Pass1PlaneRadius1Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (14/253): Blur1Pass1PlaneRadius2Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (15/253): Blur1Pass1PlaneRadius3Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (16/253): Blur1Pass1PlaneRadius4Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (17/253): Blur1Pass1PlaneRadius5Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (18/253): Blur1Pass1PlaneRadius6Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (19/253): Blur1Pass4PlaneRadius1Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (20/253): Blur1Pass4PlaneRadius2Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (21/253): Blur1Pass4PlaneRadius3Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (22/253): Blur1Pass4PlaneRadius4Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius4Compute,832,832
+Apple M1: Building compute pipeline state (23/253): Blur1Pass4PlaneRadius5Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius5Compute,832,832
+Apple M1: Building compute pipeline state (24/253): Blur1Pass4PlaneRadius6Compute
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius6Compute,640,640
+Apple M1: Building compute pipeline state (25/253): BlurAcrossOrDown1PlaneRadius1Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (26/253): BlurAcrossOrDown1PlaneRadius2Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (27/253): BlurAcrossOrDown1PlaneRadius3Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (28/253): BlurAcrossOrDown1PlaneRadius4Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (29/253): BlurAcrossOrDown1PlaneRadius5Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (30/253): BlurAcrossOrDown1PlaneRadius6Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (31/253): BlurAcrossOrDown1PlaneRadiusNCompute
+Intel Compiler: no
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (32/253): BlurAcrossOrDown4PlaneRadius1Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (33/253): BlurAcrossOrDown4PlaneRadius2Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (34/253): BlurAcrossOrDown4PlaneRadius3Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (35/253): BlurAcrossOrDown4PlaneRadius4Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (36/253): BlurAcrossOrDown4PlaneRadius5Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (37/253): BlurAcrossOrDown4PlaneRadius6Compute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (38/253): BlurAcrossOrDown4PlaneRadiusNCompute
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (39/253): BoxBlur1Pass1PlanePlusComputeABRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (40/253): BoxBlur1Pass1PlanePlusComputeABRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (41/253): BoxBlur1Pass1PlanePlusComputeABRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (42/253): BoxBlur1Pass1PlanePlusComputeABRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (43/253): BoxBlur1Pass1PlanePlusComputeABRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (44/253): BoxBlur1Pass1PlanePlusComputeABRadius6Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (45/253): BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (46/253): BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius2Compute,896,896
+Apple M1: Building compute pipeline state (47/253): BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius3Compute,512,512
+Apple M1: Building compute pipeline state (48/253): BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius4Compute,384,384
+Apple M1: Building compute pipeline state (49/253): BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius5Compute,384,384
+Apple M1: Building compute pipeline state (50/253): BoxBlur1Pass3PlanePlusComputeABRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (51/253): BoxBlur1Pass3PlanePlusComputeABRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius2Compute,704,704
+Apple M1: Building compute pipeline state (52/253): BoxBlur1Pass3PlanePlusComputeABRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius3Compute,448,448
+Apple M1: Building compute pipeline state (53/253): BoxBlur1Pass3PlanePlusComputeABRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius4Compute,384,384
+Apple M1: Building compute pipeline state (54/253): BoxBlur1Pass3PlanePlusComputeABRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (55/253): BoxBlur1Pass3PlanePlusComputeABRadius6Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (56/253): BoxBlur1Pass4PlaneRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (57/253): BoxBlur1Pass4PlaneRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (58/253): BoxBlur1Pass4PlaneRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (59/253): BoxBlur1Pass4PlaneRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (60/253): BoxBlur1Pass4PlaneRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius5Compute,832,832
+Apple M1: Building compute pipeline state (61/253): BoxBlur1Pass4PlaneRadius6Compute
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (62/253): BoxBlurAcross1PlanePlusIpProductRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (63/253): BoxBlurAcross1PlanePlusIpProductRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (64/253): BoxBlurAcross1PlanePlusIpProductRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (65/253): BoxBlurAcross1PlanePlusIpProductRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (66/253): BoxBlurAcross1PlanePlusIpProductRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (67/253): BoxBlurAcross1PlanePlusIpProductRadius6Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (68/253): BoxBlurAcross1PlanePlusIpProductRadiusNCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (69/253): BoxBlurAcross1PlanePlusIpProductRadiusNMovingAverageCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNMovingAverageCompute,1024,1024
+Apple M1: Building compute pipeline state (70/253): BoxBlurAcross2PlaneRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (71/253): BoxBlurAcross2PlaneRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (72/253): BoxBlurAcross2PlaneRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (73/253): BoxBlurAcross2PlaneRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (74/253): BoxBlurAcross2PlaneRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (75/253): BoxBlurAcross2PlaneRadius6Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (76/253): BoxBlurAcross2PlaneRadiusNCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (77/253): BoxBlurAcross2PlaneRadiusNMovingAverageCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNMovingAverageCompute,1024,1024
+Apple M1: Building compute pipeline state (78/253): BoxBlurAcross3PlanePlusIpProductRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (79/253): BoxBlurAcross3PlanePlusIpProductRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (80/253): BoxBlurAcross3PlanePlusIpProductRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (81/253): BoxBlurAcross3PlanePlusIpProductRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (82/253): BoxBlurAcross3PlanePlusIpProductRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (83/253): BoxBlurAcross3PlanePlusIpProductRadius6Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (84/253): BoxBlurAcross3PlanePlusIpProductRadiusNCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (85/253): BoxBlurAcross3PlanePlusIpProductRadiusNMovingAverageCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNMovingAverageCompute,1024,1024
+Apple M1: Building compute pipeline state (86/253): BoxBlurAcrossOrDown4PlaneRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (87/253): BoxBlurAcrossOrDown4PlaneRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (88/253): BoxBlurAcrossOrDown4PlaneRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (89/253): BoxBlurAcrossOrDown4PlaneRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (90/253): BoxBlurAcrossOrDown4PlaneRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (91/253): BoxBlurAcrossOrDown4PlaneRadius6Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (92/253): BoxBlurAcrossOrDown4PlaneRadiusNCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (93/253): BoxBlurAcrossOrDown4PlaneRadiusNMovingAverageCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNMovingAverageCompute,1024,1024
+Apple M1: Building compute pipeline state (94/253): BoxBlurDown1PlanePlusComputeABRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (95/253): BoxBlurDown1PlanePlusComputeABRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (96/253): BoxBlurDown1PlanePlusComputeABRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (97/253): BoxBlurDown1PlanePlusComputeABRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (98/253): BoxBlurDown1PlanePlusComputeABRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (99/253): BoxBlurDown1PlanePlusComputeABRadius6Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (100/253): BoxBlurDown1PlanePlusComputeABRadiusNCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (101/253): BoxBlurDown1PlanePlusComputeABRadiusNMovingAverageCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNMovingAverageCompute,1024,1024
+Apple M1: Building compute pipeline state (102/253): BoxBlurDown2PlanePlusAffinePlusPreprocessRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (103/253): BoxBlurDown2PlanePlusAffinePlusPreprocessRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (104/253): BoxBlurDown2PlanePlusAffinePlusPreprocessRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (105/253): BoxBlurDown2PlanePlusAffinePlusPreprocessRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (106/253): BoxBlurDown2PlanePlusAffinePlusPreprocessRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (107/253): BoxBlurDown2PlanePlusAffinePlusPreprocessRadius6Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (108/253): BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (109/253): BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNMovingAverageCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNMovingAverageCompute,1024,1024
+Apple M1: Building compute pipeline state (110/253): BoxBlurDown3PlanePlusComputeABRadius1Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (111/253): BoxBlurDown3PlanePlusComputeABRadius2Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (112/253): BoxBlurDown3PlanePlusComputeABRadius3Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (113/253): BoxBlurDown3PlanePlusComputeABRadius4Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (114/253): BoxBlurDown3PlanePlusComputeABRadius5Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (115/253): BoxBlurDown3PlanePlusComputeABRadius6Compute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (116/253): BoxBlurDown3PlanePlusComputeABRadiusNCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (117/253): BoxBlurDown3PlanePlusComputeABRadiusNMovingAverageCompute
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNMovingAverageCompute,1024,1024
+Apple M1: Building compute pipeline state (118/253): Copy2PlaneTextureTo4PlaneTextureCompute
+MaxTotalThreadsPerThreadGroup: Copy2PlaneTextureTo4PlaneTextureCompute,1024,1024
+Apple M1: Building compute pipeline state (119/253): CopyBuffer16sToTexture32Compute
+MaxTotalThreadsPerThreadGroup: CopyBuffer16sToTexture32Compute,1024,1024
+Apple M1: Building compute pipeline state (120/253): CopyBuffer16uToTexture32Compute
+MaxTotalThreadsPerThreadGroup: CopyBuffer16uToTexture32Compute,1024,1024
+Apple M1: Building compute pipeline state (121/253): CopyBuffer32ToTexture32Compute
+MaxTotalThreadsPerThreadGroup: CopyBuffer32ToTexture32Compute,1024,1024
+Apple M1: Building compute pipeline state (122/253): CopyBufferToBufferCompute
+MaxTotalThreadsPerThreadGroup: CopyBufferToBufferCompute,1024,1024
+Apple M1: Building compute pipeline state (123/253): CopyBufferToTextureCompute
+MaxTotalThreadsPerThreadGroup: CopyBufferToTextureCompute,1024,1024
+Apple M1: Building compute pipeline state (124/253): CopyTexelBufferToTexelBufferCompute
+MaxTotalThreadsPerThreadGroup: CopyTexelBufferToTexelBufferCompute,1024,1024
+Apple M1: Building compute pipeline state (125/253): CopyTextureToTextureCompute
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureCompute,1024,1024
+Apple M1: Building compute pipeline state (126/253): CopyTextureToTextureWithDitherCompute
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithDitherCompute,1024,1024
+Apple M1: Building compute pipeline state (127/253): CopyTextureToTextureWithEdgeOptionCompute
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithEdgeOptionCompute,1024,1024
+Apple M1: Building compute pipeline state (128/253): CopyTextureToTextureWithPaddingCompute
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithPaddingCompute,1024,1024
+Apple M1: Building compute pipeline state (129/253): DefringeCompute
+MaxTotalThreadsPerThreadGroup: DefringeCompute,1024,1024
+Apple M1: Building compute pipeline state (130/253): DefringeBlendBlurNonBlurredCompute
+MaxTotalThreadsPerThreadGroup: DefringeBlendBlurNonBlurredCompute,1024,1024
+Apple M1: Building compute pipeline state (131/253): DefringeCompositeMaskCompute
+MaxTotalThreadsPerThreadGroup: DefringeCompositeMaskCompute,1024,1024
+Apple M1: Building compute pipeline state (132/253): DefringeMaskCompute
+MaxTotalThreadsPerThreadGroup: DefringeMaskCompute,1024,1024
+Apple M1: Building compute pipeline state (133/253): DefringeMaxAcrossRadius1Compute
+MaxTotalThreadsPerThreadGroup: DefringeMaxAcrossRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (134/253): DefringeMaxDownRadius1Compute
+MaxTotalThreadsPerThreadGroup: DefringeMaxDownRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (135/253): DefringeMaxMaskCompute
+MaxTotalThreadsPerThreadGroup: DefringeMaxMaskCompute,1024,1024
+Apple M1: Building compute pipeline state (136/253): DefringeMinMaskCompute
+MaxTotalThreadsPerThreadGroup: DefringeMinMaskCompute,1024,1024
+Apple M1: Building compute pipeline state (137/253): DefringeMultiplyMaskCompute
+MaxTotalThreadsPerThreadGroup: DefringeMultiplyMaskCompute,1024,1024
+Apple M1: Building compute pipeline state (138/253): DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius1Compute
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (139/253): DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius2Compute
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (140/253): DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius3Compute
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (141/253): DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius4Compute
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (142/253): DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius5Compute
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (143/253): DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius6Compute
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (144/253): DehazeMinFilter1PlaneAcrossPlusDarkChannelRadiusNCompute
+MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneAcrossPlusDarkChannelRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (145/253): DehazeMinFilter1PlaneDownPlusPreprocessRadiusNCompute
+MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneDownPlusPreprocessRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (146/253): DehazeTrMDarkChannelCompute
+MaxTotalThreadsPerThreadGroup: DehazeTrMDarkChannelCompute,1024,1024
+Apple M1: Building compute pipeline state (147/253): DehazeTrMEmitIndexedRGBLCompute
+MaxTotalThreadsPerThreadGroup: DehazeTrMEmitIndexedRGBLCompute,1024,1024
+Apple M1: Building compute pipeline state (148/253): DehazeTrMSetConstantAirlightCompute
+MaxTotalThreadsPerThreadGroup: DehazeTrMSetConstantAirlightCompute,1024,1024
+Apple M1: Building compute pipeline state (149/253): DenoiseAlphaBlendCompute
+MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendCompute,1024,1024
+Apple M1: Building compute pipeline state (150/253): DenoiseAlphaBlendLocalCompute
+MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendLocalCompute,1024,1024
+Apple M1: Building compute pipeline state (151/253): DenoiseBlendEdgesCompute
+MaxTotalThreadsPerThreadGroup: DenoiseBlendEdgesCompute,1024,1024
+Apple M1: Building compute pipeline state (152/253): DenoiseCopyLumAndColorCompute
+MaxTotalThreadsPerThreadGroup: DenoiseCopyLumAndColorCompute,1024,1024
+Apple M1: Building compute pipeline state (153/253): DenoiseCrossBilateralAcrossOrDownRadius1Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (154/253): DenoiseCrossBilateralAcrossOrDownRadius2Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (155/253): DenoiseCrossBilateralAcrossOrDownRadius3Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (156/253): DenoiseCrossBilateralAcrossOrDownRadius4Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (157/253): DenoiseCrossBilateralAcrossOrDownRadius5Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (158/253): DenoiseCrossBilateralAcrossOrDownRadius6Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius6Compute,832,832
+Apple M1: Building compute pipeline state (159/253): DenoiseCrossBilateralAcrossOrDownRadiusNCompute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (160/253): DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius1Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (161/253): DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius2Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (162/253): DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius3Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (163/253): DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius4Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (164/253): DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius5Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (165/253): DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius6Compute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (166/253): DenoiseCrossBoxBlurWithDetailAcrossOrDownRadiusNCompute
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (167/253): DenoiseDeltaFindFeatureCompute
+MaxTotalThreadsPerThreadGroup: DenoiseDeltaFindFeatureCompute,1024,1024
+Apple M1: Building compute pipeline state (168/253): DenoiseDiffuseEdgeMarkersCompute
+MaxTotalThreadsPerThreadGroup: DenoiseDiffuseEdgeMarkersCompute,1024,1024
+Apple M1: Building compute pipeline state (169/253): DenoiseFindAndRemoveNoiseBlockCompute
+MaxTotalThreadsPerThreadGroup: DenoiseFindAndRemoveNoiseBlockCompute,1024,1024
+Apple M1: Building compute pipeline state (170/253): DenoiseMakeDeltaCompute
+MaxTotalThreadsPerThreadGroup: DenoiseMakeDeltaCompute,1024,1024
+Apple M1: Building compute pipeline state (171/253): DenoiseOptionKeyFeedbackCompute
+MaxTotalThreadsPerThreadGroup: DenoiseOptionKeyFeedbackCompute,1024,1024
+Apple M1: Building compute pipeline state (172/253): DenoisePrelimEdgeDirectionCompute
+MaxTotalThreadsPerThreadGroup: DenoisePrelimEdgeDirectionCompute,1024,1024
+Apple M1: Building compute pipeline state (173/253): DenoisePyramidBuildHpCompute
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildHpCompute,1024,1024
+Apple M1: Building compute pipeline state (174/253): DenoisePyramidBuildLp1Compute
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp1Compute,1024,1024
+Apple M1: Building compute pipeline state (175/253): DenoisePyramidBuildLp3Compute
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp3Compute,1024,1024
+Apple M1: Building compute pipeline state (176/253): DenoisePyramidCollapseLp1Compute
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp1Compute,1024,1024
+Apple M1: Building compute pipeline state (177/253): DenoisePyramidCollapseLp3WithHpCompute
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithHpCompute,1024,1024
+Apple M1: Building compute pipeline state (178/253): DenoisePyramidCollapseLp3WithoutHpCompute
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithoutHpCompute,1024,1024
+Apple M1: Building compute pipeline state (179/253): DenoiseRank3x3PlusHpThresholdCompute
+MaxTotalThreadsPerThreadGroup: DenoiseRank3x3PlusHpThresholdCompute,1024,1024
+Apple M1: Building compute pipeline state (180/253): DenoiseRecordMaxBorderCompute
+MaxTotalThreadsPerThreadGroup: DenoiseRecordMaxBorderCompute,1024,1024
+Apple M1: Building compute pipeline state (181/253): DenoiseRefineDeltasCompute
+MaxTotalThreadsPerThreadGroup: DenoiseRefineDeltasCompute,1024,1024
+Apple M1: Building compute pipeline state (182/253): DenoiseRefineRefEdgeDirectionsCompute
+MaxTotalThreadsPerThreadGroup: DenoiseRefineRefEdgeDirectionsCompute,1024,1024
+Apple M1: Building compute pipeline state (183/253): DenoiseSmoothEdgesCompute
+MaxTotalThreadsPerThreadGroup: DenoiseSmoothEdgesCompute,1024,1024
+Apple M1: Building compute pipeline state (184/253): DenoiseSmoothNonEdgeCompute
+MaxTotalThreadsPerThreadGroup: DenoiseSmoothNonEdgeCompute,1024,1024
+Apple M1: Building compute pipeline state (185/253): DrawLineOnTexCompute
+MaxTotalThreadsPerThreadGroup: DrawLineOnTexCompute,1024,1024
+Apple M1: Building compute pipeline state (186/253): FillBufferCompute
+MaxTotalThreadsPerThreadGroup: FillBufferCompute,1024,1024
+Apple M1: Building compute pipeline state (187/253): FillBuffer1PlaneCompute
+MaxTotalThreadsPerThreadGroup: FillBuffer1PlaneCompute,1024,1024
+Apple M1: Building compute pipeline state (188/253): FillTextureCompute
+MaxTotalThreadsPerThreadGroup: FillTextureCompute,1024,1024
+Apple M1: Building compute pipeline state (189/253): Histogram1PlaneCompute
+MaxTotalThreadsPerThreadGroup: Histogram1PlaneCompute,1024,1024
+Apple M1: Building compute pipeline state (190/253): Histogram1Plane_V1Compute
+MaxTotalThreadsPerThreadGroup: Histogram1Plane_V1Compute,1024,1024
+Apple M1: Building compute pipeline state (191/253): Histogram3PlaneCompute
+MaxTotalThreadsPerThreadGroup: Histogram3PlaneCompute,1024,1024
+Apple M1: Building compute pipeline state (192/253): Histogram4Plane_V1Compute
+MaxTotalThreadsPerThreadGroup: Histogram4Plane_V1Compute,1024,1024
+Apple M1: Building compute pipeline state (193/253): LocalContrastYCompute
+MaxTotalThreadsPerThreadGroup: LocalContrastYCompute,1024,1024
+Apple M1: Building compute pipeline state (194/253): LocalCorrectionCompositeCompute
+MaxTotalThreadsPerThreadGroup: LocalCorrectionCompositeCompute,1024,1024
+Apple M1: Building compute pipeline state (195/253): ManualDistortionTransformCompute
+MaxTotalThreadsPerThreadGroup: ManualDistortionTransformCompute,1024,1024
+Apple M1: Building compute pipeline state (196/253): MaskRenderComboCompute
+MaxTotalThreadsPerThreadGroup: MaskRenderComboCompute,1024,1024
+Apple M1: Building compute pipeline state (197/253): MoireBoxBlur1PassAndBlendRadius1Compute
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (198/253): MoireBoxBlur1PassAndBlendRadius2Compute
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (199/253): MoireBoxBlur1PassAndBlendRadius3Compute
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (200/253): MoireBoxBlur1PassAndBlendRadius4Compute
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (201/253): MoireBoxBlur1PassAndBlendRadius5Compute
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (202/253): MoireBoxBlur1PassAndBlendRadius6Compute
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (203/253): MoireBoxBlurAcrossRadiusNCompute
+MaxTotalThreadsPerThreadGroup: MoireBoxBlurAcrossRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (204/253): MoireBoxBlurDownAndBlendRadiusNCompute
+MaxTotalThreadsPerThreadGroup: MoireBoxBlurDownAndBlendRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (205/253): MoireCombine3Plane1PlaneCompute
+MaxTotalThreadsPerThreadGroup: MoireCombine3Plane1PlaneCompute,1024,1024
+Apple M1: Building compute pipeline state (206/253): OutputSharpenHPAndBlendGamma18Compute
+MaxTotalThreadsPerThreadGroup: OutputSharpenHPAndBlendGamma18Compute,1024,1024
+Apple M1: Building compute pipeline state (207/253): OutputSharpenGamma18Compute
+MaxTotalThreadsPerThreadGroup: OutputSharpenGamma18Compute,1024,1024
+Apple M1: Building compute pipeline state (208/253): OutputSharpenUSMWithThresholdCompute
+MaxTotalThreadsPerThreadGroup: OutputSharpenUSMWithThresholdCompute,1024,1024
+Apple M1: Building compute pipeline state (209/253): OverlayGrainCompute
+MaxTotalThreadsPerThreadGroup: OverlayGrainCompute,1024,1024
+Apple M1: Building compute pipeline state (210/253): PerspectiveTransformCompute
+MaxTotalThreadsPerThreadGroup: PerspectiveTransformCompute,1024,1024
+Apple M1: Building compute pipeline state (211/253): RadialTableWarpTransformCompute
+MaxTotalThreadsPerThreadGroup: RadialTableWarpTransformCompute,1024,1024
+Apple M1: Building compute pipeline state (212/253): ReorientTextureCompute
+MaxTotalThreadsPerThreadGroup: ReorientTextureCompute,1024,1024
+Apple M1: Building compute pipeline state (213/253): Sample1PlaneCompute
+MaxTotalThreadsPerThreadGroup: Sample1PlaneCompute,1024,1024
+Apple M1: Building compute pipeline state (214/253): Sample4PlaneCompute
+MaxTotalThreadsPerThreadGroup: Sample4PlaneCompute,1024,1024
+Apple M1: Building compute pipeline state (215/253): Sequence1TexCompute
+MaxTotalThreadsPerThreadGroup: Sequence1TexCompute,896,896
+Apple M1: Building compute pipeline state (216/253): Sequence2TexCompute
+MaxTotalThreadsPerThreadGroup: Sequence2TexCompute,1024,1024
+Apple M1: Building compute pipeline state (217/253): Sequence3TexCompute
+MaxTotalThreadsPerThreadGroup: Sequence3TexCompute,1024,1024
+Apple M1: Building compute pipeline state (218/253): Sequence4TexCompute
+MaxTotalThreadsPerThreadGroup: Sequence4TexCompute,896,896
+Apple M1: Building compute pipeline state (219/253): Sequence5TexCompute
+MaxTotalThreadsPerThreadGroup: Sequence5TexCompute,1024,1024
+Apple M1: Building compute pipeline state (220/253): Sharpen3BlurDownSharpenRadius1Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (221/253): Sharpen3BlurDownSharpenRadius2Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (222/253): Sharpen3BlurDownSharpenRadius3Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (223/253): Sharpen3BlurDownSharpenRadius4Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (224/253): Sharpen3BlurDownSharpenRadius5Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (225/253): Sharpen3BlurDownSharpenRadius6Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius6Compute,1024,1024
+Apple M1: Building compute pipeline state (226/253): Sharpen3BlurDownSharpenRadiusNCompute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadiusNCompute,1024,1024
+Apple M1: Building compute pipeline state (227/253): Sharpen3BlurSharpen1PassRadius1Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (228/253): Sharpen3BlurSharpen1PassRadius2Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius2Compute,1024,1024
+Apple M1: Building compute pipeline state (229/253): Sharpen3BlurSharpen1PassRadius3Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius3Compute,1024,1024
+Apple M1: Building compute pipeline state (230/253): Sharpen3BlurSharpen1PassRadius4Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius4Compute,1024,1024
+Apple M1: Building compute pipeline state (231/253): Sharpen3BlurSharpen1PassRadius5Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius5Compute,1024,1024
+Apple M1: Building compute pipeline state (232/253): Sharpen3BlurSharpen1PassRadius6Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius6Compute,832,832
+Apple M1: Building compute pipeline state (233/253): Sharpen3CompositePlusCompute
+MaxTotalThreadsPerThreadGroup: Sharpen3CompositePlusCompute,1024,1024
+Apple M1: Building compute pipeline state (234/253): Sharpen3EdgeDiff1PassRadius1Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3EdgeDiff1PassRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (235/253): Sharpen3LensBlurCompute
+MaxTotalThreadsPerThreadGroup: Sharpen3LensBlurCompute,1024,1024
+Apple M1: Building compute pipeline state (236/253): Sharpen3MinMax1PassRadius1Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3MinMax1PassRadius1Compute,1024,1024
+Apple M1: Building compute pipeline state (237/253): Sharpen3RGBtoRGBYGamma18Compute
+MaxTotalThreadsPerThreadGroup: Sharpen3RGBtoRGBYGamma18Compute,1024,1024
+Apple M1: Building compute pipeline state (238/253): SkewHCompute
+MaxTotalThreadsPerThreadGroup: SkewHCompute,1024,1024
+Apple M1: Building compute pipeline state (239/253): SkewVCompute
+MaxTotalThreadsPerThreadGroup: SkewVCompute,1024,1024
+Apple M1: Building compute pipeline state (240/253): SolidFrameTexCompute
+MaxTotalThreadsPerThreadGroup: SolidFrameTexCompute,1024,1024
+Apple M1: Building compute pipeline state (241/253): SortPhase0HistogramsZeroCompute
+MaxTotalThreadsPerThreadGroup: SortPhase0HistogramsZeroCompute,1024,1024
+Apple M1: Building compute pipeline state (242/253): SortPhase1HistogramsCalcCompute
+MaxTotalThreadsPerThreadGroup: SortPhase1HistogramsCalcCompute,1024,1024
+Apple M1: Building compute pipeline state (243/253): SortPhase2HistogramsScanCompute
+MaxTotalThreadsPerThreadGroup: SortPhase2HistogramsScanCompute,1024,1024
+Apple M1: Building compute pipeline state (244/253): SortPhase3ScatterCompute
+MaxTotalThreadsPerThreadGroup: SortPhase3ScatterCompute,1024,1024
+Apple M1: Building compute pipeline state (245/253): SortPhase4LocalSortCompute
+MaxTotalThreadsPerThreadGroup: SortPhase4LocalSortCompute,1024,1024
+Apple M1: Building compute pipeline state (246/253): SortPhase5UnsortedFinalCopyCompute
+MaxTotalThreadsPerThreadGroup: SortPhase5UnsortedFinalCopyCompute,1024,1024
+Apple M1: Building compute pipeline state (247/253): TextureAffinePlusCompositeCompute
+MaxTotalThreadsPerThreadGroup: TextureAffinePlusCompositeCompute,1024,1024
+Apple M1: Building compute pipeline state (248/253): TextureEncodeLogYCCCompute
+MaxTotalThreadsPerThreadGroup: TextureEncodeLogYCCCompute,1024,1024
+Apple M1: Building compute pipeline state (249/253): TextureUnitInfoCompute
+MaxTotalThreadsPerThreadGroup: TextureUnitInfoCompute,1024,1024
+Apple M1: Building compute pipeline state (250/253): WarpCompute
+MaxTotalThreadsPerThreadGroup: WarpCompute,1024,1024
+Apple M1: Building compute pipeline state (251/253): Warp4X4Compute
+MaxTotalThreadsPerThreadGroup: Warp4X4Compute,512,512
+Apple M1: Building compute pipeline state (252/253): WarpPlanesDifferentCompute
+MaxTotalThreadsPerThreadGroup: WarpPlanesDifferentCompute,1024,1024
+Apple M1: Building compute pipeline state (253/253): WarpPlanesDifferent4X4Compute
+MaxTotalThreadsPerThreadGroup: WarpPlanesDifferent4X4Compute,896,896
+Apple M1: Finished building compute pipeline states.
+GPU Init Status (part 2): I4_GPU4
+GPU3 Hard Status Result (part 2): success
+GPU3 Soft Status Result (part 2): success
+GPU4 Hard Status Result (part 2): success
+GPU4 Soft Status Result (part 2): success
+Profile self-check: lcpCount=2613, dcpCount=3276
+
+Uses little-endian byte order
+Magic number = 42
+
+IFD 0: Offset = 8, Entries = 60
+
+NewSubFileType: Preview Image
+ImageWidth: 256
+ImageLength: 132
+BitsPerSample: 8 8 8
+Compression: Uncompressed
+PhotometricInterpretation: RGB
+Make: "SONY"
+Model: "ILCE-7RM4"
+Camera Model ID = unknown
+StripOffsets: Offset = 175532
+Orientation: 1 - 0th row is top, 0th column is left
+SamplesPerPixel: 3
+RowsPerStrip: 132
+StripByteCounts: Count = 101376
+PlanarConfiguration: 1
+Software: "Adobe Photoshop Camera Raw 14.5 (Windows)"
+DateTime: 2022:07:06 12:16:44
+Artist: "David Franzen"
+SubIFDs: 5 entries
+	   IFD [0] = 148060
+	   IFD [1] = 173518
+	   IFD [2] = 173918
+	   IFD [3] = 174508
+	   IFD [4] = 175002
+XMP: Count = 25497, Offset = 852
+XMP: <?xpacket begin="\357\273\277" id="W5M0MpCehiHzreSzNTczkc9d"?>
+XMP: <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+XMP:  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+XMP:   <rdf:Description rdf:about=""
+XMP:     xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+XMP:     xmlns:dc="http://purl.org/dc/elements/1.1/"
+XMP:     xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
+XMP:     xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+XMP:     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+XMP:     xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+XMP:     xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+XMP:     xmlns:crd="http://ns.adobe.com/camera-raw-defaults/1.0/"
+XMP:     xmlns:panorama="http://ns.adobe.com/photoshop/1.0/panorama-profile"
+XMP:     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+XMP:    xmp:Rating="2"
+XMP:    xmp:CreatorTool="Adobe Photoshop Camera Raw 14.5 (Windows)"
+XMP:    xmp:ModifyDate="2022-07-06T12:16:44-07:00"
+XMP:    xmp:CreateDate="2021-04-21T07:28:03.1-07:00"
+XMP:    xmp:MetadataDate="2022-07-06T12:16:44-07:00"
+XMP:    dc:format="image/dng"
+XMP:    aux:SerialNumber="03386400"
+XMP:    aux:LensInfo="700/10 3000/10 45/10 56/10"
+XMP:    aux:Lens="FE 70-300mm F4.5-5.6 G OSS"
+XMP:    aux:LensDistortInfo="1059934795/1073741824 24474239/1073741824 -4829493/1073741824 -5962473/1073741824"
+XMP:    aux:IsMergedPanorama="True"
+XMP:    aux:DistortionCorrectionAlreadyApplied="True"
+XMP:    aux:LateralChromaticAberrationCorrectionAlreadyApplied="True"
+XMP:    aux:VignetteCorrectionAlreadyApplied="True"
+XMP:    photoshop:DateCreated="2021-04-21T07:27:59-07:00"
+XMP:    xmpMM:DocumentID="xmp.did:4c70011a-34c6-f141-8982-acdd61b8889e"
+XMP:    xmpMM:OriginalDocumentID="F95D137A665DC8D0C5F06B81EA449EB5"
+XMP:    xmpMM:InstanceID="xmp.iid:4c70011a-34c6-f141-8982-acdd61b8889e"
+XMP:    crd:CameraProfile="Camera Standard"
+XMP:    crd:LookName=""
+XMP:    panorama:Transformation="Spherical"
+XMP:    panorama:VirtualFocalLength="4.268318"
+XMP:    panorama:VirtualImageXCenter="0.560916"
+XMP:    panorama:VirtualImageYCenter="0.293572"
+XMP:    crs:Version="14.5"
+XMP:    crs:ProcessVersion="11.0"
+XMP:    crs:WhiteBalance="Custom"
+XMP:    crs:Temperature="5400"
+XMP:    crs:Tint="+10"
+XMP:    crs:Exposure2012="+0.43"
+XMP:    crs:Contrast2012="0"
+XMP:    crs:Highlights2012="-44"
+XMP:    crs:Shadows2012="-57"
+XMP:    crs:Whites2012="+60"
+XMP:    crs:Blacks2012="-96"
+XMP:    crs:Texture="0"
+XMP:    crs:Clarity2012="+10"
+XMP:    crs:Dehaze="0"
+XMP:    crs:Vibrance="+14"
+XMP:    crs:Saturation="-2"
+XMP:    crs:ParametricShadows="0"
+XMP:    crs:ParametricDarks="0"
+XMP:    crs:ParametricLights="0"
+XMP:    crs:ParametricHighlights="0"
+XMP:    crs:ParametricShadowSplit="25"
+XMP:    crs:ParametricMidtoneSplit="50"
+XMP:    crs:ParametricHighlightSplit="75"
+XMP:    crs:Sharpness="40"
+XMP:    crs:SharpenRadius="+1.0"
+XMP:    crs:SharpenDetail="25"
+XMP:    crs:SharpenEdgeMasking="0"
+XMP:    crs:LuminanceSmoothing="0"
+XMP:    crs:ColorNoiseReduction="25"
+XMP:    crs:ColorNoiseReductionDetail="50"
+XMP:    crs:ColorNoiseReductionSmoothness="50"
+XMP:    crs:HueAdjustmentRed="0"
+XMP:    crs:HueAdjustmentOrange="0"
+XMP:    crs:HueAdjustmentYellow="0"
+XMP:    crs:HueAdjustmentGreen="0"
+XMP:    crs:HueAdjustmentAqua="0"
+XMP:    crs:HueAdjustmentBlue="0"
+XMP:    crs:HueAdjustmentPurple="0"
+XMP:    crs:HueAdjustmentMagenta="0"
+XMP:    crs:SaturationAdjustmentRed="0"
+XMP:    crs:SaturationAdjustmentOrange="0"
+XMP:    crs:SaturationAdjustmentYellow="0"
+XMP:    crs:SaturationAdjustmentGreen="0"
+XMP:    crs:SaturationAdjustmentAqua="0"
+XMP:    crs:SaturationAdjustmentBlue="0"
+XMP:    crs:SaturationAdjustmentPurple="0"
+XMP:    crs:SaturationAdjustmentMagenta="0"
+XMP:    crs:LuminanceAdjustmentRed="0"
+XMP:    crs:LuminanceAdjustmentOrange="0"
+XMP:    crs:LuminanceAdjustmentYellow="0"
+XMP:    crs:LuminanceAdjustmentGreen="0"
+XMP:    crs:LuminanceAdjustmentAqua="0"
+XMP:    crs:LuminanceAdjustmentBlue="0"
+XMP:    crs:LuminanceAdjustmentPurple="0"
+XMP:    crs:LuminanceAdjustmentMagenta="0"
+XMP:    crs:SplitToningShadowHue="0"
+XMP:    crs:SplitToningShadowSaturation="0"
+XMP:    crs:SplitToningHighlightHue="0"
+XMP:    crs:SplitToningHighlightSaturation="0"
+XMP:    crs:SplitToningBalance="0"
+XMP:    crs:ColorGradeMidtoneHue="0"
+XMP:    crs:ColorGradeMidtoneSat="0"
+XMP:    crs:ColorGradeShadowLum="0"
+XMP:    crs:ColorGradeMidtoneLum="0"
+XMP:    crs:ColorGradeHighlightLum="0"
+XMP:    crs:ColorGradeBlending="50"
+XMP:    crs:ColorGradeGlobalHue="0"
+XMP:    crs:ColorGradeGlobalSat="0"
+XMP:    crs:ColorGradeGlobalLum="0"
+XMP:    crs:AutoLateralCA="0"
+XMP:    crs:LensProfileEnable="0"
+XMP:    crs:LensManualDistortionAmount="0"
+XMP:    crs:VignetteAmount="0"
+XMP:    crs:DefringePurpleAmount="0"
+XMP:    crs:DefringePurpleHueLo="30"
+XMP:    crs:DefringePurpleHueHi="70"
+XMP:    crs:DefringeGreenAmount="0"
+XMP:    crs:DefringeGreenHueLo="40"
+XMP:    crs:DefringeGreenHueHi="60"
+XMP:    crs:PerspectiveUpright="0"
+XMP:    crs:PerspectiveVertical="0"
+XMP:    crs:PerspectiveHorizontal="0"
+XMP:    crs:PerspectiveRotate="0.0"
+XMP:    crs:PerspectiveAspect="0"
+XMP:    crs:PerspectiveScale="100"
+XMP:    crs:PerspectiveX="0.00"
+XMP:    crs:PerspectiveY="0.00"
+XMP:    crs:GrainAmount="0"
+XMP:    crs:PostCropVignetteAmount="0"
+XMP:    crs:ShadowTint="0"
+XMP:    crs:RedHue="0"
+XMP:    crs:RedSaturation="0"
+XMP:    crs:GreenHue="0"
+XMP:    crs:GreenSaturation="0"
+XMP:    crs:BlueHue="0"
+XMP:    crs:BlueSaturation="0"
+XMP:    crs:OverrideLookVignette="False"
+XMP:    crs:ToneCurveName2012="Linear"
+XMP:    crs:CameraProfile="Adobe Standard"
+XMP:    crs:CameraProfileDigest="2D1D4700365C3E2831EEAE0D1A8F9CDF"
+XMP:    crs:AutoToneDigest="FE0E603C1651CC6B859A383E8EC1B84D"
+XMP:    crs:AutoToneDigestNoSat="D473B445F02D6B54F8CFB46190A78D64"
+XMP:    crs:HasSettings="True"
+XMP:    crs:CropTop="0.014169"
+XMP:    crs:CropLeft="0.018438"
+XMP:    crs:CropBottom="0.840003"
+XMP:    crs:CropRight="1"
+XMP:    crs:CropAngle="-0.5"
+XMP:    crs:CropConstrainToWarp="0"
+XMP:    crs:HasCrop="True"
+XMP:    crs:AlreadyApplied="False">
+XMP:    <dc:creator>
+XMP:     <rdf:Seq>
+XMP:      <rdf:li>David Franzen</rdf:li>
+XMP:     </rdf:Seq>
+XMP:    </dc:creator>
+XMP:    <dc:rights>
+XMP:     <rdf:Alt>
+XMP:      <rdf:li xml:lang="x-default">David Franzen</rdf:li>
+XMP:     </rdf:Alt>
+XMP:    </dc:rights>
+XMP:    <xmpMM:History>
+XMP:     <rdf:Seq>
+XMP:      <rdf:li
+XMP:       stEvt:action="saved"
+XMP:       stEvt:instanceID="xmp.iid:f1b2eae6-c770-47bd-b069-0edb0072e073"
+XMP:       stEvt:when="2021-04-21T08:41:35-07:00"
+XMP:       stEvt:softwareAgent="Adobe Photoshop Camera Raw 13.2 (Macintosh)"
+XMP:       stEvt:changed="/metadata"/>
+XMP:      <rdf:li
+XMP:       stEvt:action="converted"
+XMP:       stEvt:parameters="from image/x-sony-arw to image/dng"/>
+XMP:      <rdf:li
+XMP:       stEvt:action="saved"
+XMP:       stEvt:instanceID="xmp.iid:70d948fa-750c-425d-8d1c-f61f528f66ce"
+XMP:       stEvt:when="2021-04-21T08:48:07-07:00"
+XMP:       stEvt:softwareAgent="Adobe Photoshop Camera Raw 13.2 (Macintosh)"
+XMP:       stEvt:changed="/metadata"/>
+XMP:      <rdf:li
+XMP:       stEvt:action="derived"
+XMP:       stEvt:parameters="saved to new location"/>
+XMP:      <rdf:li
+XMP:       stEvt:action="saved"
+XMP:       stEvt:instanceID="xmp.iid:4c70011a-34c6-f141-8982-acdd61b8889e"
+XMP:       stEvt:when="2022-07-06T12:16:44-07:00"
+XMP:       stEvt:softwareAgent="Adobe Photoshop Camera Raw 14.5 (Windows)"
+XMP:       stEvt:changed="/"/>
+XMP:     </rdf:Seq>
+XMP:    </xmpMM:History>
+XMP:    <xmpMM:DerivedFrom
+XMP:     stRef:instanceID="xmp.iid:70d948fa-750c-425d-8d1c-f61f528f66ce"
+XMP:     stRef:documentID="F95D137A665DC8D0C5F06B81EA449EB5"
+XMP:     stRef:originalDocumentID="F95D137A665DC8D0C5F06B81EA449EB5"/>
+XMP:    <crs:ToneCurvePV2012>
+XMP:     <rdf:Seq>
+XMP:      <rdf:li>0, 0</rdf:li>
+XMP:      <rdf:li>255, 255</rdf:li>
+XMP:     </rdf:Seq>
+XMP:    </crs:ToneCurvePV2012>
+XMP:    <crs:ToneCurvePV2012Red>
+XMP:     <rdf:Seq>
+XMP:      <rdf:li>0, 0</rdf:li>
+XMP:      <rdf:li>255, 255</rdf:li>
+XMP:     </rdf:Seq>
+XMP:    </crs:ToneCurvePV2012Red>
+XMP:    <crs:ToneCurvePV2012Green>
+XMP:     <rdf:Seq>
+XMP:      <rdf:li>0, 0</rdf:li>
+XMP:      <rdf:li>255, 255</rdf:li>
+XMP:     </rdf:Seq>
+XMP:    </crs:ToneCurvePV2012Green>
+XMP:    <crs:ToneCurvePV2012Blue>
+XMP:     <rdf:Seq>
+XMP:      <rdf:li>0, 0</rdf:li>
+XMP:      <rdf:li>255, 255</rdf:li>
+XMP:     </rdf:Seq>
+XMP:    </crs:ToneCurvePV2012Blue>
+XMP:    <crs:RetouchAreas>
+XMP:     <rdf:Seq>
+XMP:      <rdf:li>
+XMP:       <rdf:Description
+XMP:        crs:SpotType="clone"
+XMP:        crs:SourceState="sourceSetExplicitly"
+XMP:        crs:Method="gaussian"
+XMP:        crs:HealVersion="2"
+XMP:        crs:SourceX="0.263311"
+XMP:        crs:OffsetY="0.827667"
+XMP:        crs:Opacity="1"
+XMP:        crs:Feather="0.4"
+XMP:        crs:Seed="1">
+XMP:       <crs:Masks>
+XMP:        <rdf:Seq>
+XMP:         <rdf:li
+XMP:          crs:What="Mask/Ellipse"
+XMP:          crs:MaskActive="true"
+XMP:          crs:MaskBlendMode="0"
+XMP:          crs:MaskInverted="false"
+XMP:          crs:MaskSyncID="960C944634AD5446A7D813F503F60CC7"
+XMP:          crs:MaskValue="1"
+XMP:          crs:X="0.310987"
+XMP:          crs:Y="0.828084"
+XMP:          crs:SizeX="0.012742"
+XMP:          crs:SizeY="0.012742"
+XMP:          crs:Alpha="0"
+XMP:          crs:CenterValue="1"
+XMP:          crs:PerimeterValue="1"/>
+XMP:        </rdf:Seq>
+XMP:       </crs:Masks>
+XMP:       </rdf:Description>
+XMP:      </rdf:li>
+XMP:      <rdf:li>
+XMP:       <rdf:Description
+XMP:        crs:SpotType="clone"
+XMP:        crs:SourceState="sourceSetExplicitly"
+XMP:        crs:Method="gaussian"
+XMP:        crs:HealVersion="2"
+XMP:        crs:SourceX="0.285395"
+XMP:        crs:OffsetY="0.781514"
+XMP:        crs:Opacity="1"
+XMP:        crs:Feather="0.4"
+XMP:        crs:Seed="2">
+XMP:       <crs:Masks>
+XMP:        <rdf:Seq>
+XMP:         <rdf:li>
+XMP:          <rdf:Description
+XMP:           crs:What="Mask/Paint"
+XMP:           crs:MaskActive="true"
+XMP:           crs:MaskBlendMode="0"
+XMP:           crs:MaskInverted="false"
+XMP:           crs:MaskSyncID="C81AE353C6816243878E0B50D220342A"
+XMP:           crs:MaskValue="1"
+XMP:           crs:Radius="0.012742"
+XMP:           crs:Flow="1"
+XMP:           crs:CenterWeight="0.5">
+XMP:          <crs:Dabs>
+XMP:           <rdf:Seq>
+XMP:            <rdf:li>d 0.395198 0.802490</rdf:li>
+XMP:            <rdf:li>d 0.394667 0.806631</rdf:li>
+XMP:            <rdf:li>d 0.393655 0.810517</rdf:li>
+XMP:            <rdf:li>d 0.392950 0.814586</rdf:li>
+XMP:            <rdf:li>d 0.391975 0.818498</rdf:li>
+XMP:            <rdf:li>d 0.391098 0.822475</rdf:li>
+XMP:            <rdf:li>d 0.390012 0.826305</rdf:li>
+XMP:            <rdf:li>d 0.388770 0.830003</rdf:li>
+XMP:            <rdf:li>d 0.387180 0.833311</rdf:li>
+XMP:            <rdf:li>d 0.389493 0.835090</rdf:li>
+XMP:            <rdf:li>d 0.392040 0.835199</rdf:li>
+XMP:            <rdf:li>d 0.394430 0.836668</rdf:li>
+XMP:            <rdf:li>d 0.396597 0.838897</rdf:li>
+XMP:            <rdf:li>d 0.397935 0.842501</rdf:li>
+XMP:            <rdf:li>d 0.398420 0.846658</rdf:li>
+XMP:            <rdf:li>d 0.396111 0.848450</rdf:li>
+XMP:            <rdf:li>d 0.393772 0.846768</rdf:li>
+XMP:            <rdf:li>d 0.391585 0.844594</rdf:li>
+XMP:            <rdf:li>d 0.389441 0.842303</rdf:li>
+XMP:            <rdf:li>d 0.386944 0.841459</rdf:li>
+XMP:            <rdf:li>d 0.384567 0.842983</rdf:li>
+XMP:            <rdf:li>d 0.382019 0.843108</rdf:li>
+XMP:            <rdf:li>d 0.379490 0.843630</rdf:li>
+XMP:            <rdf:li>d 0.376969 0.844248</rdf:li>
+XMP:            <rdf:li>d 0.374421 0.844336</rdf:li>
+XMP:            <rdf:li>d 0.372026 0.842887</rdf:li>
+XMP:            <rdf:li>d 0.369479 0.842751</rdf:li>
+XMP:            <rdf:li>d 0.367631 0.839835</rdf:li>
+XMP:            <rdf:li>d 0.367371 0.835623</rdf:li>
+XMP:            <rdf:li>d 0.368602 0.831916</rdf:li>
+XMP:            <rdf:li>d 0.370765 0.829676</rdf:li>
+XMP:            <rdf:li>d 0.373188 0.828365</rdf:li>
+XMP:            <rdf:li>d 0.375527 0.826684</rdf:li>
+XMP:            <rdf:li>d 0.373005 0.826082</rdf:li>
+XMP:            <rdf:li>d 0.371378 0.829341</rdf:li>
+XMP:            <rdf:li>d 0.369763 0.832617</rdf:li>
+XMP:            <rdf:li>d 0.368294 0.836077</rdf:li>
+XMP:            <rdf:li>d 0.366887 0.839608</rdf:li>
+XMP:            <rdf:li>d 0.364991 0.842437</rdf:li>
+XMP:            <rdf:li>d 0.362476 0.841761</rdf:li>
+XMP:            <rdf:li>d 0.360077 0.840329</rdf:li>
+XMP:            <rdf:li>d 0.357771 0.838528</rdf:li>
+XMP:            <rdf:li>d 0.356104 0.835326</rdf:li>
+XMP:            <rdf:li>d 0.353640 0.834241</rdf:li>
+XMP:            <rdf:li>d 0.351159 0.835208</rdf:li>
+XMP:            <rdf:li>d 0.348713 0.836395</rdf:li>
+XMP:            <rdf:li>d 0.346379 0.838095</rdf:li>
+XMP:            <rdf:li>d 0.344435 0.840834</rdf:li>
+XMP:            <rdf:li>d 0.342813 0.844100</rdf:li>
+XMP:            <rdf:li>d 0.340629 0.846283</rdf:li>
+XMP:            <rdf:li>d 0.338125 0.847068</rdf:li>
+XMP:            <rdf:li>d 0.335788 0.848758</rdf:li>
+XMP:            <rdf:li>d 0.333263 0.849330</rdf:li>
+XMP:            <rdf:li>d 0.330715 0.849398</rdf:li>
+XMP:            <rdf:li>d 0.328240 0.848390</rdf:li>
+XMP:            <rdf:li>d 0.325782 0.847269</rdf:li>
+XMP:            <rdf:li>d 0.323305 0.846277</rdf:li>
+XMP:            <rdf:li>d 0.320757 0.846222</rdf:li>
+XMP:            <rdf:li>d 0.318279 0.845233</rdf:li>
+XMP:            <rdf:li>d 0.316109 0.843011</rdf:li>
+XMP:            <rdf:li>d 0.314133 0.840337</rdf:li>
+XMP:           </rdf:Seq>
+XMP:          </crs:Dabs>
+XMP:          </rdf:Description>
+XMP:         </rdf:li>
+XMP:        </rdf:Seq>
+XMP:       </crs:Masks>
+XMP:       </rdf:Description>
+XMP:      </rdf:li>
+XMP:      <rdf:li>
+XMP:       <rdf:Description
+XMP:        crs:SpotType="clone"
+XMP:        crs:SourceState="sourceSetExplicitly"
+XMP:        crs:Method="gaussian"
+XMP:        crs:HealVersion="2"
+XMP:        crs:SourceX="0.904593"
+XMP:        crs:OffsetY="0.77542"
+XMP:        crs:Opacity="1"
+XMP:        crs:Feather="0.77"
+XMP:        crs:Seed="2">
+XMP:       <crs:Masks>
+XMP:        <rdf:Seq>
+XMP:         <rdf:li>
+XMP:          <rdf:Description
+XMP:           crs:What="Mask/Paint"
+XMP:           crs:MaskActive="true"
+XMP:           crs:MaskBlendMode="0"
+XMP:           crs:MaskInverted="false"
+XMP:           crs:MaskSyncID="41FC4DC5A7468143880AD5BA21CC6C6E"
+XMP:           crs:MaskValue="1"
+XMP:           crs:Radius="0.012068"
+XMP:           crs:Flow="1"
+XMP:           crs:CenterWeight="0.5">
+XMP:          <crs:Dabs>
+XMP:           <rdf:Seq>
+XMP:            <rdf:li>d 0.982183 0.807001</rdf:li>
+XMP:            <rdf:li>d 0.979770 0.807036</rdf:li>
+XMP:            <rdf:li>d 0.977400 0.807802</rdf:li>
+XMP:            <rdf:li>d 0.975187 0.809403</rdf:li>
+XMP:            <rdf:li>d 0.972955 0.810927</rdf:li>
+XMP:            <rdf:li>d 0.970900 0.813030</rdf:li>
+XMP:            <rdf:li>d 0.969006 0.815516</rdf:li>
+XMP:            <rdf:li>d 0.966838 0.817277</rdf:li>
+XMP:            <rdf:li>d 0.964896 0.819660</rdf:li>
+XMP:            <rdf:li>d 0.963536 0.822972</rdf:li>
+XMP:            <rdf:li>d 0.962719 0.826746</rdf:li>
+XMP:            <rdf:li>d 0.962706 0.830756</rdf:li>
+XMP:            <rdf:li>d 0.962490 0.834750</rdf:li>
+XMP:            <rdf:li>d 0.962942 0.838690</rdf:li>
+XMP:            <rdf:li>d 0.963634 0.842532</rdf:li>
+XMP:            <rdf:li>d 0.965881 0.843992</rdf:li>
+XMP:            <rdf:li>d 0.968294 0.844082</rdf:li>
+XMP:            <rdf:li>d 0.970676 0.844734</rdf:li>
+XMP:            <rdf:li>d 0.973089 0.844785</rdf:li>
+XMP:            <rdf:li>d 0.975464 0.844072</rdf:li>
+XMP:            <rdf:li>d 0.977819 0.843191</rdf:li>
+XMP:            <rdf:li>d 0.980217 0.842744</rdf:li>
+XMP:            <rdf:li>d 0.982631 0.842705</rdf:li>
+XMP:            <rdf:li>d 0.985036 0.843036</rdf:li>
+XMP:            <rdf:li>d 0.987440 0.843398</rdf:li>
+XMP:            <rdf:li>d 0.989843 0.843762</rdf:li>
+XMP:            <rdf:li>d 0.992216 0.844501</rdf:li>
+XMP:            <rdf:li>d 0.994536 0.845607</rdf:li>
+XMP:            <rdf:li>d 0.996904 0.846378</rdf:li>
+XMP:            <rdf:li>d 0.999226 0.845285</rdf:li>
+XMP:            <rdf:li>d 1.000479 0.841857</rdf:li>
+XMP:            <rdf:li>d 1.000976 0.837933</rdf:li>
+XMP:            <rdf:li>d 1.000982 0.833923</rdf:li>
+XMP:            <rdf:li>d 0.999821 0.830407</rdf:li>
+XMP:            <rdf:li>d 0.998365 0.827208</rdf:li>
+XMP:            <rdf:li>d 0.996646 0.824393</rdf:li>
+XMP:            <rdf:li>d 0.995298 0.821067</rdf:li>
+XMP:            <rdf:li>d 0.994101 0.817584</rdf:li>
+XMP:            <rdf:li>d 0.992184 0.815148</rdf:li>
+XMP:            <rdf:li>d 0.989771 0.815136</rdf:li>
+XMP:            <rdf:li>d 0.992005 0.813618</rdf:li>
+XMP:            <rdf:li>d 0.994413 0.813877</rdf:li>
+XMP:            <rdf:li>d 0.996594 0.815595</rdf:li>
+XMP:            <rdf:li>d 0.998939 0.816543</rdf:li>
+XMP:           </rdf:Seq>
+XMP:          </crs:Dabs>
+XMP:          </rdf:Description>
+XMP:         </rdf:li>
+XMP:        </rdf:Seq>
+XMP:       </crs:Masks>
+XMP:       </rdf:Description>
+XMP:      </rdf:li>
+XMP:      <rdf:li>
+XMP:       <rdf:Description
+XMP:        crs:SpotType="clone"
+XMP:        crs:SourceState="sourceAutoComputed"
+XMP:        crs:Method="gaussian"
+XMP:        crs:HealVersion="2"
+XMP:        crs:SourceX="0.898112"
+XMP:        crs:OffsetY="0.796046"
+XMP:        crs:Opacity="1"
+XMP:        crs:Feather="0.77"
+XMP:        crs:Seed="2">
+XMP:       <crs:Masks>
+XMP:        <rdf:Seq>
+XMP:         <rdf:li>
+XMP:          <rdf:Description
+XMP:           crs:What="Mask/Paint"
+XMP:           crs:MaskActive="true"
+XMP:           crs:MaskBlendMode="0"
+XMP:           crs:MaskInverted="false"
+XMP:           crs:MaskSyncID="A2AF2B80A6EA2D469D0FCAD8B5554BBD"
+XMP:           crs:MaskValue="1"
+XMP:           crs:Radius="0.012068"
+XMP:           crs:Flow="1"
+XMP:           crs:CenterWeight="0.5">
+XMP:          <crs:Dabs>
+XMP:           <rdf:Seq>
+XMP:            <rdf:li>d 0.979425 0.821561</rdf:li>
+XMP:            <rdf:li>d 0.977022 0.821929</rdf:li>
+XMP:            <rdf:li>d 0.975256 0.824661</rdf:li>
+XMP:            <rdf:li>d 0.975677 0.828610</rdf:li>
+XMP:            <rdf:li>d 0.978040 0.829426</rdf:li>
+XMP:            <rdf:li>d 0.980442 0.829032</rdf:li>
+XMP:            <rdf:li>d 0.982739 0.827804</rdf:li>
+XMP:            <rdf:li>d 0.984841 0.825834</rdf:li>
+XMP:            <rdf:li>d 0.985072 0.821842</rdf:li>
+XMP:            <rdf:li>d 0.983051 0.819649</rdf:li>
+XMP:            <rdf:li>d 0.980645 0.819968</rdf:li>
+XMP:            <rdf:li>d 0.978825 0.822601</rdf:li>
+XMP:            <rdf:li>d 0.977126 0.825449</rdf:li>
+XMP:            <rdf:li>d 0.976642 0.829378</rdf:li>
+XMP:            <rdf:li>d 0.979013 0.830127</rdf:li>
+XMP:            <rdf:li>d 0.981258 0.828657</rdf:li>
+XMP:            <rdf:li>d 0.983365 0.826699</rdf:li>
+XMP:            <rdf:li>d 0.984631 0.823285</rdf:li>
+XMP:            <rdf:li>d 0.985268 0.819417</rdf:li>
+XMP:            <rdf:li>d 0.984375 0.815691</rdf:li>
+XMP:            <rdf:li>d 0.982002 0.816420</rdf:li>
+XMP:            <rdf:li>d 0.980004 0.818671</rdf:li>
+XMP:            <rdf:li>d 0.978190 0.821316</rdf:li>
+XMP:            <rdf:li>d 0.976281 0.823770</rdf:li>
+XMP:            <rdf:li>d 0.974471 0.826423</rdf:li>
+XMP:           </rdf:Seq>
+XMP:          </crs:Dabs>
+XMP:          </rdf:Description>
+XMP:         </rdf:li>
+XMP:        </rdf:Seq>
+XMP:       </crs:Masks>
+XMP:       </rdf:Description>
+XMP:      </rdf:li>
+XMP:      <rdf:li>
+XMP:       <rdf:Description
+XMP:        crs:SpotType="clone"
+XMP:        crs:SourceState="sourceAutoComputed"
+XMP:        crs:Method="gaussian"
+XMP:        crs:HealVersion="2"
+XMP:        crs:SourceX="0.067064"
+XMP:        crs:OffsetY="0.845795"
+XMP:        crs:Opacity="1"
+XMP:        crs:Feather="0.77"
+XMP:        crs:Seed="2">
+XMP:       <crs:Masks>
+XMP:        <rdf:Seq>
+XMP:         <rdf:li>
+XMP:          <rdf:Description
+XMP:           crs:What="Mask/Paint"
+XMP:           crs:MaskActive="true"
+XMP:           crs:MaskBlendMode="0"
+XMP:           crs:MaskInverted="false"
+XMP:           crs:MaskSyncID="10C8488FAFFED34C9D92A8B2055E3E20"
+XMP:           crs:MaskValue="1"
+XMP:           crs:Radius="0.001519"
+XMP:           crs:Flow="1"
+XMP:           crs:CenterWeight="0.5">
+XMP:          <crs:Dabs>
+XMP:           <rdf:Seq>
+XMP:            <rdf:li>d 0.074279 0.849791</rdf:li>
+XMP:            <rdf:li>d 0.074028 0.850075</rdf:li>
+XMP:            <rdf:li>d 0.073764 0.850325</rdf:li>
+XMP:            <rdf:li>d 0.073535 0.850656</rdf:li>
+XMP:            <rdf:li>d 0.073336 0.851037</rdf:li>
+XMP:            <rdf:li>d 0.073225 0.851507</rdf:li>
+XMP:            <rdf:li>d 0.073139 0.851991</rdf:li>
+XMP:            <rdf:li>d 0.073107 0.852493</rdf:li>
+XMP:            <rdf:li>d 0.073247 0.852940</rdf:li>
+XMP:            <rdf:li>d 0.073509 0.853195</rdf:li>
+XMP:            <rdf:li>d 0.073813 0.853204</rdf:li>
+XMP:            <rdf:li>d 0.074117 0.853201</rdf:li>
+XMP:            <rdf:li>d 0.074419 0.853151</rdf:li>
+XMP:            <rdf:li>d 0.074699 0.852955</rdf:li>
+XMP:            <rdf:li>d 0.074916 0.852601</rdf:li>
+XMP:            <rdf:li>d 0.074975 0.852106</rdf:li>
+XMP:            <rdf:li>d 0.075032 0.851610</rdf:li>
+XMP:            <rdf:li>d 0.074970 0.851116</rdf:li>
+XMP:            <rdf:li>d 0.074800 0.850698</rdf:li>
+XMP:            <rdf:li>d 0.074616 0.850296</rdf:li>
+XMP:            <rdf:li>d 0.074432 0.849895</rdf:li>
+XMP:            <rdf:li>d 0.074138 0.850025</rdf:li>
+XMP:            <rdf:li>d 0.073958 0.850431</rdf:li>
+XMP:            <rdf:li>d 0.073786 0.850847</rdf:li>
+XMP:            <rdf:li>d 0.073668 0.851312</rdf:li>
+XMP:            <rdf:li>d 0.073608 0.851807</rdf:li>
+XMP:            <rdf:li>d 0.073693 0.852292</rdf:li>
+XMP:            <rdf:li>d 0.073981 0.852454</rdf:li>
+XMP:            <rdf:li>d 0.074283 0.852505</rdf:li>
+XMP:            <rdf:li>d 0.074538 0.852230</rdf:li>
+XMP:           </rdf:Seq>
+XMP:          </crs:Dabs>
+XMP:          </rdf:Description>
+XMP:         </rdf:li>
+XMP:        </rdf:Seq>
+XMP:       </crs:Masks>
+XMP:       </rdf:Description>
+XMP:      </rdf:li>
+XMP:     </rdf:Seq>
+XMP:    </crs:RetouchAreas>
+XMP:    <crs:RetouchInfo>
+XMP:     <rdf:Seq>
+XMP:      <rdf:li>centerX = 0.310987, centerY = 0.828084, radius = 0.012742, sourceState = sourceSetExplicitly, sourceX = 0.2633
+XMP: 11, sourceY = 0.827667, spotType = clone</rdf:li>
+XMP:     </rdf:Seq>
+XMP:    </crs:RetouchInfo>
+XMP:    <crs:Look>
+XMP:     <rdf:Description
+XMP:      crs:Name="Adobe Color"
+XMP:      crs:Amount="1"
+XMP:      crs:UUID="B952C231111CD8E0ECCF14B86BAA7077"
+XMP:      crs:SupportsAmount="false"
+XMP:      crs:SupportsMonochrome="false"
+XMP:      crs:SupportsOutputReferred="false"
+XMP:      crs:Copyright="\302\251 2018 Adobe Systems, Inc.">
+XMP:     <crs:Group>
+XMP:      <rdf:Alt>
+XMP:       <rdf:li xml:lang="x-default">Profiles</rdf:li>
+XMP:      </rdf:Alt>
+XMP:     </crs:Group>
+XMP:     <crs:Parameters>
+XMP:      <rdf:Description
+XMP:       crs:Version="14.5"
+XMP:       crs:ProcessVersion="11.0"
+XMP:       crs:ConvertToGrayscale="False"
+XMP:       crs:CameraProfile="Adobe Standard"
+XMP:       crs:LookTable="E1095149FDB39D7A057BAB208837E2E1">
+XMP:      <crs:ToneCurvePV2012>
+XMP:       <rdf:Seq>
+XMP:        <rdf:li>0, 0</rdf:li>
+XMP:        <rdf:li>22, 16</rdf:li>
+XMP:        <rdf:li>40, 35</rdf:li>
+XMP:        <rdf:li>127, 127</rdf:li>
+XMP:        <rdf:li>224, 230</rdf:li>
+XMP:        <rdf:li>240, 246</rdf:li>
+XMP:        <rdf:li>255, 255</rdf:li>
+XMP:       </rdf:Seq>
+XMP:      </crs:ToneCurvePV2012>
+XMP:      <crs:ToneCurvePV2012Red>
+XMP:       <rdf:Seq>
+XMP:        <rdf:li>0, 0</rdf:li>
+XMP:        <rdf:li>255, 255</rdf:li>
+XMP:       </rdf:Seq>
+XMP:      </crs:ToneCurvePV2012Red>
+XMP:      <crs:ToneCurvePV2012Green>
+XMP:       <rdf:Seq>
+XMP:        <rdf:li>0, 0</rdf:li>
+XMP:        <rdf:li>255, 255</rdf:li>
+XMP:       </rdf:Seq>
+XMP:      </crs:ToneCurvePV2012Green>
+XMP:      <crs:ToneCurvePV2012Blue>
+XMP:       <rdf:Seq>
+XMP:        <rdf:li>0, 0</rdf:li>
+XMP:        <rdf:li>255, 255</rdf:li>
+XMP:       </rdf:Seq>
+XMP:      </crs:ToneCurvePV2012Blue>
+XMP:      </rdf:Description>
+XMP:     </crs:Parameters>
+XMP:     </rdf:Description>
+XMP:    </crs:Look>
+XMP:   </rdf:Description>
+XMP:  </rdf:RDF>
+XMP: </x:xmpmeta>
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                                                                     
+XMP:                                                        
+XMP: <?xpacket end="w"?>
+Copyright: "David Franzen"
+ExifIFD: 147290
+GPSInfo: 148010
+DNGVersion: 1.4.0.0
+DNGBackwardVersion: 1.1.0.0
+UniqueCameraModel: "Sony ILCE-7RM4"
+ColorMatrix1:
+	   0.9054  -0.4504   0.0215
+	  -0.4751   1.2611   0.2388
+	  -0.0296   0.0802   0.6816
+ColorMatrix2:
+	   0.7662  -0.2686  -0.0660
+	  -0.5240   1.2965   0.2530
+	  -0.0796   0.1508   0.6167
+CameraCalibration1:
+	   1.0110   0.0000   0.0000
+	   0.0000   1.0000   0.0000
+	   0.0000   0.0000   0.9789
+CameraCalibration2:
+	   1.0110   0.0000   0.0000
+	   0.0000   1.0000   0.0000
+	   0.0000   0.0000   0.9789
+AnalogBalance: 1.0000 1.0000 1.0000
+AsShotNeutral: 0.4057 1.0000 0.5981
+BaselineExposure: +0.35
+BaselineNoise: 0.60
+BaselineSharpness: 1.33
+LinearResponseLimit: 1.00
+CameraSerialNumber: "03386400"
+LensInfo: 70.0-300.0 mm f/4.5-5.6
+ShadowScale: 1.0000
+CalibrationIlluminant1: Standard light A
+CalibrationIlluminant2: D65
+RawDataUniqueID: <cf85a43b8d4d9a02e6ced792bc010c1a>
+CameraCalibrationSignature: "com.adobe"
+ProfileCalibrationSignature: "com.adobe"
+ProfileName: "Adobe Standard"
+ProfileHueSatMapDims: Hues = 90, Sats = 30, Vals = 1
+ProfileHueSatMapData1:
+	 h [ 0] s [ 0]:  h=  2.0000 s=1.0000 v=1.0000
+	 h [ 0] s [ 1]:  h=  2.0000 s=1.6029 v=1.0128
+	 h [ 0] s [ 2]:  h=  2.0000 s=1.5830 v=1.0255
+	 h [ 0] s [ 3]:  h=  2.0000 s=1.5635 v=1.0383
+	 h [ 0] s [ 4]:  h=  2.0000 s=1.5445 v=1.0511
+	 h [ 0] s [ 5]:  h=  2.0000 s=1.5260 v=1.0638
+	 h [ 0] s [ 6]:  h=  2.0000 s=1.5079 v=1.0766
+	 h [ 0] s [ 7]:  h=  2.0000 s=1.4902 v=1.0893
+	 h [ 0] s [ 8]:  h=  2.0000 s=1.4730 v=1.1021
+	 h [ 0] s [ 9]:  h=  2.0000 s=1.4561 v=1.1149
+	 h [ 0] s [10]:  h=  2.0000 s=1.4396 v=1.1276
+	 h [ 0] s [11]:  h=  2.0000 s=1.4235 v=1.1404
+	 h [ 0] s [12]:  h=  2.0000 s=1.4078 v=1.1532
+	 h [ 0] s [13]:  h=  2.0000 s=1.3924 v=1.1659
+	 h [ 0] s [14]:  h=  2.0000 s=1.3773 v=1.1787
+	 h [ 0] s [15]:  h=  2.0000 s=1.3625 v=1.1914
+	 h [ 0] s [16]:  h=  2.0000 s=1.3481 v=1.2042
+	 h [ 0] s [17]:  h=  2.0000 s=1.3339 v=1.2170
+	 h [ 0] s [18]:  h=  2.0000 s=1.2902 v=1.2297
+	 h [ 0] s [19]:  h=  2.0000 s=1.2314 v=1.2425
+	 h [ 0] s [20]:  h=  2.0000 s=1.1864 v=1.2553
+	 h [ 0] s [21]:  h=  2.0000 s=1.1525 v=1.2680
+	 h [ 0] s [22]:  h=  2.0000 s=1.1272 v=1.2808
+	 h [ 0] s [23]:  h=  2.0000 s=1.1082 v=1.2936
+	 h [ 0] s [24]:  h=  2.0000 s=1.0933 v=1.3063
+	 h [ 0] s [25]:  h=  2.0000 s=1.0803 v=1.3191
+	 h [ 0] s [26]:  h=  2.0000 s=1.0669 v=1.3318
+	 h [ 0] s [27]:  h=  2.0000 s=1.0508 v=1.3446
+	 h [ 0] s [28]:  h=  2.0000 s=1.0294 v=1.3574
+	 h [ 0] s [29]:  h=  2.0000 s=1.0000 v=1.3701
+	 h [ 1] s [ 0]:  h=  1.6445 s=1.0000 v=1.0000
+	 h [ 1] s [ 1]:  h=  1.6445 s=1.6039 v=1.0122
+	 h [ 1] s [ 2]:  h=  1.6444 s=1.5848 v=1.0243
+	 h [ 1] s [ 3]:  h=  1.6444 s=1.5662 v=1.0365
+	 h [ 1] s [ 4]:  h=  1.6444 s=1.5480 v=1.0487
+	 h [ 1] s [ 5]:  h=  1.6444 s=1.5303 v=1.0608
+	 h [ 1] s [ 6]:  h=  1.6445 s=1.5129 v=1.0730
+	 h [ 1] s [ 7]:  h=  1.6445 s=1.4960 v=1.0852
+	 h [ 1] s [ 8]:  h=  1.6445 s=1.4794 v=1.0973
+	 h [ 1] s [ 9]:  h=  1.6444 s=1.4632 v=1.1095
+	 h [ 1] s [10]:  h=  1.6444 s=1.4473 v=1.1217
+	 h [ 1] s [11]:  h=  1.6445 s=1.4318 v=1.1338
+	 h [ 1] s [12]:  h=  1.6444 s=1.4166 v=1.1460
+	 h [ 1] s [13]:  h=  1.6444 s=1.4017 v=1.1582
+	 h [ 1] s [14]:  h=  1.6444 s=1.3871 v=1.1703
+	 h [ 1] s [15]:  h=  1.6444 s=1.3728 v=1.1825
+	 h [ 1] s [16]:  h=  1.6444 s=1.3589 v=1.1947
+	 h [ 1] s [17]:  h=  1.6444 s=1.3452 v=1.2068
+	 h [ 1] s [18]:  h=  1.6444 s=1.2912 v=1.2190
+	 h [ 1] s [19]:  h=  1.6444 s=1.2338 v=1.2312
+	 h [ 1] s [20]:  h=  1.6444 s=1.1898 v=1.2433
+	 h [ 1] s [21]:  h=  1.6444 s=1.1564 v=1.2555
+	 h [ 1] s [22]:  h=  1.6444 s=1.1313 v=1.2677
+	 h [ 1] s [23]:  h=  1.6444 s=1.1121 v=1.2798
+	 h [ 1] s [24]:  h=  1.6444 s=1.0967 v=1.2920
+	 h [ 1] s [25]:  h=  1.6444 s=1.0830 v=1.3041
+	 h [ 1] s [26]:  h=  1.6444 s=1.0687 v=1.3163
+	 h [ 1] s [27]:  h=  1.6444 s=1.0518 v=1.3285
+	 h [ 1] s [28]:  h=  1.6444 s=1.0297 v=1.3406
+	 h [ 1] s [29]:  h=  1.6444 s=1.0000 v=1.3528
+	 h [ 2] s [ 0]:  h=  1.2890 s=1.0000 v=1.0000
+	 h [ 2] s [ 1]:  h=  1.2890 s=1.6048 v=1.0116
+	 h [ 2] s [ 2]:  h=  1.2888 s=1.5867 v=1.0231
+	 h [ 2] s [ 3]:  h=  1.2889 s=1.5689 v=1.0347
+	 h [ 2] s [ 4]:  h=  1.2889 s=1.5516 v=1.0463
+	 h [ 2] s [ 5]:  h=  1.2889 s=1.5346 v=1.0578
+	 h [ 2] s [ 6]:  h=  1.2889 s=1.5180 v=1.0694
+	 h [ 2] s [ 7]:  h=  1.2889 s=1.5018 v=1.0810
+	 h [ 2] s [ 8]:  h=  1.2889 s=1.4859 v=1.0926
+	 h [ 2] s [ 9]:  h=  1.2889 s=1.4703 v=1.1041
+	 h [ 2] s [10]:  h=  1.2889 s=1.4550 v=1.1157
+	 h [ 2] s [11]:  h=  1.2889 s=1.4401 v=1.1273
+	 h [ 2] s [12]:  h=  1.2889 s=1.4255 v=1.1388
+	 h [ 2] s [13]:  h=  1.2889 s=1.4111 v=1.1504
+	 h [ 2] s [14]:  h=  1.2889 s=1.3971 v=1.1620
+	 h [ 2] s [15]:  h=  1.2889 s=1.3833 v=1.1735
+	 h [ 2] s [16]:  h=  1.2889 s=1.3698 v=1.1851
+	 h [ 2] s [17]:  h=  1.2889 s=1.3566 v=1.1967
+	 h [ 2] s [18]:  h=  1.2889 s=1.2925 v=1.2082
+	 h [ 2] s [19]:  h=  1.2889 s=1.2363 v=1.2198
+	 h [ 2] s [20]:  h=  1.2889 s=1.1932 v=1.2314
+	 h [ 2] s [21]:  h=  1.2889 s=1.1603 v=1.2429
+	 h [ 2] s [22]:  h=  1.2889 s=1.1353 v=1.2545
+	 h [ 2] s [23]:  h=  1.2889 s=1.1159 v=1.2661
+	 h [ 2] s [24]:  h=  1.2889 s=1.1000 v=1.2777
+	 h [ 2] s [25]:  h=  1.2889 s=1.0855 v=1.2892
+	 h [ 2] s [26]:  h=  1.2889 s=1.0705 v=1.3008
+	 h [ 2] s [27]:  h=  1.2889 s=1.0527 v=1.3124
+	 h [ 2] s [28]:  h=  1.2889 s=1.0300 v=1.3239
+	 h [ 2] s [29]:  h=  1.2889 s=1.0000 v=1.3355
+	 h [ 3] s [ 0]:  h=  0.9334 s=1.0000 v=1.0000
+	 h [ 3] s [ 1]:  h=  0.9334 s=1.6058 v=1.0110
+	 h [ 3] s [ 2]:  h=  0.9332 s=1.5885 v=1.0219
+	 h [ 3] s [ 3]:  h=  0.9333 s=1.5716 v=1.0329
+	 h [ 3] s [ 4]:  h=  0.9333 s=1.5551 v=1.0439
+	 h [ 3] s [ 5]:  h=  0.9333 s=1.5390 v=1.0549
+	 h [ 3] s [ 6]:  h=  0.9333 s=1.5231 v=1.0658
+	 h [ 3] s [ 7]:  h=  0.9334 s=1.5076 v=1.0768
+	 h [ 3] s [ 8]:  h=  0.9333 s=1.4924 v=1.0878
+	 h [ 3] s [ 9]:  h=  0.9333 s=1.4775 v=1.0987
+	 ... 2600 more entries
+ProfileHueSatMapData2:
+	 h [ 0] s [ 0]:  h=  2.0000 s=1.0000 v=1.0000
+	 h [ 0] s [ 1]:  h=  2.0000 s=1.7580 v=1.0158
+	 h [ 0] s [ 2]:  h=  2.0000 s=1.7311 v=1.0315
+	 h [ 0] s [ 3]:  h=  2.0000 s=1.7051 v=1.0473
+	 h [ 0] s [ 4]:  h=  2.0000 s=1.6798 v=1.0631
+	 h [ 0] s [ 5]:  h=  2.0000 s=1.6553 v=1.0788
+	 h [ 0] s [ 6]:  h=  2.0000 s=1.6314 v=1.0946
+	 h [ 0] s [ 7]:  h=  2.0000 s=1.6083 v=1.1103
+	 h [ 0] s [ 8]:  h=  2.0000 s=1.5857 v=1.1261
+	 h [ 0] s [ 9]:  h=  2.0000 s=1.5638 v=1.1419
+	 h [ 0] s [10]:  h=  2.0000 s=1.5426 v=1.1576
+	 h [ 0] s [11]:  h=  2.0000 s=1.5218 v=1.1734
+	 h [ 0] s [12]:  h=  2.0000 s=1.5017 v=1.1892
+	 h [ 0] s [13]:  h=  2.0000 s=1.4820 v=1.2049
+	 h [ 0] s [14]:  h=  2.0000 s=1.4629 v=1.2207
+	 h [ 0] s [15]:  h=  2.0000 s=1.4442 v=1.2365
+	 h [ 0] s [16]:  h=  2.0000 s=1.4260 v=1.2522
+	 h [ 0] s [17]:  h=  2.0000 s=1.3665 v=1.2680
+	 h [ 0] s [18]:  h=  2.0000 s=1.2992 v=1.2837
+	 h [ 0] s [19]:  h=  2.0000 s=1.2457 v=1.2995
+	 h [ 0] s [20]:  h=  2.0000 s=1.2035 v=1.3153
+	 h [ 0] s [21]:  h=  2.0000 s=1.1703 v=1.3310
+	 h [ 0] s [22]:  h=  2.0000 s=1.1441 v=1.3468
+	 h [ 0] s [23]:  h=  2.0000 s=1.1230 v=1.3626
+	 h [ 0] s [24]:  h=  2.0000 s=1.1053 v=1.3783
+	 h [ 0] s [25]:  h=  2.0000 s=1.0891 v=1.3941
+	 h [ 0] s [26]:  h=  2.0000 s=1.0725 v=1.4099
+	 h [ 0] s [27]:  h=  2.0000 s=1.0536 v=1.4256
+	 h [ 0] s [28]:  h=  2.0000 s=1.0302 v=1.4414
+	 h [ 0] s [29]:  h=  2.0000 s=1.0000 v=1.4571
+	 h [ 1] s [ 0]:  h=  1.6445 s=1.0000 v=1.0000
+	 h [ 1] s [ 1]:  h=  1.6445 s=1.7585 v=1.0155
+	 h [ 1] s [ 2]:  h=  1.6444 s=1.7320 v=1.0310
+	 h [ 1] s [ 3]:  h=  1.6444 s=1.7064 v=1.0465
+	 h [ 1] s [ 4]:  h=  1.6444 s=1.6815 v=1.0620
+	 h [ 1] s [ 5]:  h=  1.6444 s=1.6573 v=1.0775
+	 h [ 1] s [ 6]:  h=  1.6445 s=1.6338 v=1.0930
+	 h [ 1] s [ 7]:  h=  1.6445 s=1.6109 v=1.1085
+	 h [ 1] s [ 8]:  h=  1.6445 s=1.5887 v=1.1240
+	 h [ 1] s [ 9]:  h=  1.6444 s=1.5671 v=1.1395
+	 h [ 1] s [10]:  h=  1.6444 s=1.5461 v=1.1550
+	 h [ 1] s [11]:  h=  1.6445 s=1.5256 v=1.1705
+	 h [ 1] s [12]:  h=  1.6444 s=1.5056 v=1.1860
+	 h [ 1] s [13]:  h=  1.6444 s=1.4862 v=1.2015
+	 h [ 1] s [14]:  h=  1.6444 s=1.4673 v=1.2170
+	 h [ 1] s [15]:  h=  1.6444 s=1.4488 v=1.2325
+	 h [ 1] s [16]:  h=  1.6444 s=1.4308 v=1.2480
+	 h [ 1] s [17]:  h=  1.6444 s=1.3668 v=1.2635
+	 h [ 1] s [18]:  h=  1.6444 s=1.3000 v=1.2790
+	 h [ 1] s [19]:  h=  1.6444 s=1.2469 v=1.2945
+	 h [ 1] s [20]:  h=  1.6444 s=1.2049 v=1.3100
+	 h [ 1] s [21]:  h=  1.6444 s=1.1718 v=1.3255
+	 h [ 1] s [22]:  h=  1.6444 s=1.1456 v=1.3410
+	 h [ 1] s [23]:  h=  1.6444 s=1.1244 v=1.3565
+	 h [ 1] s [24]:  h=  1.6444 s=1.1065 v=1.3720
+	 h [ 1] s [25]:  h=  1.6444 s=1.0900 v=1.3875
+	 h [ 1] s [26]:  h=  1.6444 s=1.0731 v=1.4030
+	 h [ 1] s [27]:  h=  1.6444 s=1.0539 v=1.4185
+	 h [ 1] s [28]:  h=  1.6444 s=1.0303 v=1.4340
+	 h [ 1] s [29]:  h=  1.6444 s=1.0000 v=1.4495
+	 h [ 2] s [ 0]:  h=  1.2890 s=1.0000 v=1.0000
+	 h [ 2] s [ 1]:  h=  1.2890 s=1.7589 v=1.0152
+	 h [ 2] s [ 2]:  h=  1.2888 s=1.7329 v=1.0305
+	 h [ 2] s [ 3]:  h=  1.2889 s=1.7076 v=1.0457
+	 h [ 2] s [ 4]:  h=  1.2889 s=1.6831 v=1.0610
+	 h [ 2] s [ 5]:  h=  1.2889 s=1.6593 v=1.0762
+	 h [ 2] s [ 6]:  h=  1.2889 s=1.6361 v=1.0914
+	 h [ 2] s [ 7]:  h=  1.2889 s=1.6136 v=1.1067
+	 h [ 2] s [ 8]:  h=  1.2889 s=1.5917 v=1.1219
+	 h [ 2] s [ 9]:  h=  1.2889 s=1.5704 v=1.1371
+	 h [ 2] s [10]:  h=  1.2889 s=1.5496 v=1.1524
+	 h [ 2] s [11]:  h=  1.2889 s=1.5294 v=1.1676
+	 h [ 2] s [12]:  h=  1.2889 s=1.5097 v=1.1829
+	 h [ 2] s [13]:  h=  1.2889 s=1.4905 v=1.1981
+	 h [ 2] s [14]:  h=  1.2889 s=1.4717 v=1.2133
+	 h [ 2] s [15]:  h=  1.2889 s=1.4535 v=1.2286
+	 h [ 2] s [16]:  h=  1.2889 s=1.4357 v=1.2438
+	 h [ 2] s [17]:  h=  1.2889 s=1.3673 v=1.2590
+	 h [ 2] s [18]:  h=  1.2889 s=1.3009 v=1.2743
+	 h [ 2] s [19]:  h=  1.2889 s=1.2481 v=1.2895
+	 h [ 2] s [20]:  h=  1.2889 s=1.2063 v=1.3048
+	 h [ 2] s [21]:  h=  1.2889 s=1.1733 v=1.3200
+	 h [ 2] s [22]:  h=  1.2889 s=1.1471 v=1.3352
+	 h [ 2] s [23]:  h=  1.2889 s=1.1258 v=1.3505
+	 h [ 2] s [24]:  h=  1.2889 s=1.1076 v=1.3657
+	 h [ 2] s [25]:  h=  1.2889 s=1.0909 v=1.3810
+	 h [ 2] s [26]:  h=  1.2889 s=1.0737 v=1.3962
+	 h [ 2] s [27]:  h=  1.2889 s=1.0542 v=1.4114
+	 h [ 2] s [28]:  h=  1.2889 s=1.0304 v=1.4267
+	 h [ 2] s [29]:  h=  1.2889 s=1.0000 v=1.4419
+	 h [ 3] s [ 0]:  h=  0.9334 s=1.0000 v=1.0000
+	 h [ 3] s [ 1]:  h=  0.9334 s=1.7594 v=1.0150
+	 h [ 3] s [ 2]:  h=  0.9333 s=1.7338 v=1.0300
+	 h [ 3] s [ 3]:  h=  0.9333 s=1.7089 v=1.0449
+	 h [ 3] s [ 4]:  h=  0.9333 s=1.6848 v=1.0599
+	 h [ 3] s [ 5]:  h=  0.9333 s=1.6613 v=1.0749
+	 h [ 3] s [ 6]:  h=  0.9333 s=1.6385 v=1.0899
+	 h [ 3] s [ 7]:  h=  0.9333 s=1.6163 v=1.1048
+	 h [ 3] s [ 8]:  h=  0.9333 s=1.5947 v=1.1198
+	 h [ 3] s [ 9]:  h=  0.9333 s=1.5736 v=1.1348
+	 ... 2600 more entries
+ProfileEmbedPolicy: Allow copying
+ProfileCopyright: "Copyright 2019 Adobe Systems, Inc."
+ForwardMatrix1:
+	   0.5063   0.3422   0.1159
+	   0.2614   0.7049   0.0337
+	   0.1096   0.0011   0.7144
+ForwardMatrix2:
+	   0.4898   0.3122   0.1622
+	   0.2868   0.6638   0.0494
+	   0.1283   0.0039   0.6930
+PreviewApplicationName: "Adobe Photoshop Camera Raw"
+PreviewApplicationVersion: "14.5"
+PreviewSettingsDigest: <cf8d0a0bf67d607e636e094cc78f8936>
+PreviewColorSpace: sRGB
+PreviewDateTime: "2022-07-06T12:16:43-07:00"
+ProfileLookTableDims: Hues = 36, Sats = 8, Vals = 16
+ProfileLookTableData:
+	 v [ 0] h [ 0] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 0] s [ 1]:  h=  0.0000 s=0.8786 v=1.0000
+	 v [ 0] h [ 0] s [ 2]:  h=  0.0000 s=0.8850 v=1.0000
+	 v [ 0] h [ 0] s [ 3]:  h=  0.0000 s=0.8926 v=1.0000
+	 v [ 0] h [ 0] s [ 4]:  h=  0.0000 s=0.9017 v=1.0000
+	 v [ 0] h [ 0] s [ 5]:  h=  0.0000 s=0.9126 v=1.0000
+	 v [ 0] h [ 0] s [ 6]:  h=  0.0000 s=0.9324 v=1.0000
+	 v [ 0] h [ 0] s [ 7]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 1] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 1] s [ 1]:  h= -0.0086 s=0.8741 v=1.0000
+	 v [ 0] h [ 1] s [ 2]:  h= -0.0390 s=0.8808 v=1.0000
+	 v [ 0] h [ 1] s [ 3]:  h= -0.0993 s=0.8887 v=1.0000
+	 v [ 0] h [ 1] s [ 4]:  h= -0.2070 s=0.8981 v=1.0000
+	 v [ 0] h [ 1] s [ 5]:  h= -0.4366 s=0.9095 v=1.0000
+	 v [ 0] h [ 1] s [ 6]:  h= -0.9392 s=0.9301 v=1.0000
+	 v [ 0] h [ 1] s [ 7]:  h= -1.6536 s=1.0000 v=1.0000
+	 v [ 0] h [ 2] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 2] s [ 1]:  h= -0.0135 s=0.8629 v=1.0000
+	 v [ 0] h [ 2] s [ 2]:  h= -0.0613 s=0.8703 v=1.0000
+	 v [ 0] h [ 2] s [ 3]:  h= -0.1545 s=0.8789 v=1.0000
+	 v [ 0] h [ 2] s [ 4]:  h= -0.3168 s=0.8892 v=1.0000
+	 v [ 0] h [ 2] s [ 5]:  h= -0.6237 s=0.9018 v=1.0000
+	 v [ 0] h [ 2] s [ 6]:  h= -1.2732 s=0.9245 v=1.0000
+	 v [ 0] h [ 2] s [ 7]:  h= -2.3409 s=1.0000 v=1.0000
+	 v [ 0] h [ 3] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 3] s [ 1]:  h= -0.0149 s=0.8483 v=1.0000
+	 v [ 0] h [ 3] s [ 2]:  h= -0.0681 s=0.8566 v=1.0000
+	 v [ 0] h [ 3] s [ 3]:  h= -0.1692 s=0.8661 v=1.0000
+	 v [ 0] h [ 3] s [ 4]:  h= -0.3421 s=0.8777 v=1.0000
+	 v [ 0] h [ 3] s [ 5]:  h= -0.6508 s=0.8920 v=1.0000
+	 v [ 0] h [ 3] s [ 6]:  h= -1.2595 s=0.9173 v=1.0000
+	 v [ 0] h [ 3] s [ 7]:  h= -2.2664 s=1.0000 v=1.0000
+	 v [ 0] h [ 4] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 4] s [ 1]:  h= -0.0143 s=0.8338 v=1.0000
+	 v [ 0] h [ 4] s [ 2]:  h= -0.0592 s=0.8428 v=1.0000
+	 v [ 0] h [ 4] s [ 3]:  h= -0.1472 s=0.8535 v=1.0000
+	 v [ 0] h [ 4] s [ 4]:  h= -0.2931 s=0.8662 v=1.0000
+	 v [ 0] h [ 4] s [ 5]:  h= -0.5444 s=0.8821 v=1.0000
+	 v [ 0] h [ 4] s [ 6]:  h= -1.0172 s=0.9102 v=1.0000
+	 v [ 0] h [ 4] s [ 7]:  h= -1.7869 s=1.0000 v=1.0000
+	 v [ 0] h [ 5] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 5] s [ 1]:  h= -0.0087 s=0.8226 v=1.0000
+	 v [ 0] h [ 5] s [ 2]:  h= -0.0374 s=0.8323 v=1.0000
+	 v [ 0] h [ 5] s [ 3]:  h= -0.0893 s=0.8437 v=1.0000
+	 v [ 0] h [ 5] s [ 4]:  h= -0.1768 s=0.8574 v=1.0000
+	 v [ 0] h [ 5] s [ 5]:  h= -0.3231 s=0.8746 v=1.0000
+	 v [ 0] h [ 5] s [ 6]:  h= -0.5889 s=0.9049 v=1.0000
+	 v [ 0] h [ 5] s [ 7]:  h= -1.0157 s=1.0000 v=1.0000
+	 v [ 0] h [ 6] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 6] s [ 1]:  h=  0.0000 s=0.8182 v=1.0000
+	 v [ 0] h [ 6] s [ 2]:  h=  0.0000 s=0.8281 v=1.0000
+	 v [ 0] h [ 6] s [ 3]:  h=  0.0000 s=0.8398 v=1.0000
+	 v [ 0] h [ 6] s [ 4]:  h=  0.0000 s=0.8539 v=1.0000
+	 v [ 0] h [ 6] s [ 5]:  h=  0.0000 s=0.8716 v=1.0000
+	 v [ 0] h [ 6] s [ 6]:  h=  0.0000 s=0.9028 v=1.0000
+	 v [ 0] h [ 6] s [ 7]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 7] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 7] s [ 1]:  h=  0.1838 s=0.8226 v=1.0000
+	 v [ 0] h [ 7] s [ 2]:  h=  0.3965 s=0.8323 v=1.0000
+	 v [ 0] h [ 7] s [ 3]:  h=  0.6313 s=0.8437 v=1.0000
+	 v [ 0] h [ 7] s [ 4]:  h=  0.9375 s=0.8574 v=1.0000
+	 v [ 0] h [ 7] s [ 5]:  h=  1.3706 s=0.8746 v=1.0000
+	 v [ 0] h [ 7] s [ 6]:  h=  2.0819 s=0.9049 v=1.0000
+	 v [ 0] h [ 7] s [ 7]:  h=  3.0780 s=1.0000 v=1.0000
+	 v [ 0] h [ 8] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 8] s [ 1]:  h=  0.3043 s=0.8338 v=1.0000
+	 v [ 0] h [ 8] s [ 2]:  h=  0.6277 s=0.8428 v=1.0000
+	 v [ 0] h [ 8] s [ 3]:  h=  1.0408 s=0.8535 v=1.0000
+	 v [ 0] h [ 8] s [ 4]:  h=  1.5542 s=0.8662 v=1.0000
+	 v [ 0] h [ 8] s [ 5]:  h=  2.3095 s=0.8821 v=1.0000
+	 v [ 0] h [ 8] s [ 6]:  h=  3.5960 s=0.9102 v=1.0000
+	 v [ 0] h [ 8] s [ 7]:  h=  5.4148 s=1.0000 v=1.0000
+	 v [ 0] h [ 9] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [ 9] s [ 1]:  h=  0.3163 s=0.8483 v=1.0000
+	 v [ 0] h [ 9] s [ 2]:  h=  0.7219 s=0.8566 v=1.0000
+	 v [ 0] h [ 9] s [ 3]:  h=  1.1961 s=0.8661 v=1.0000
+	 v [ 0] h [ 9] s [ 4]:  h=  1.8140 s=0.8777 v=1.0000
+	 v [ 0] h [ 9] s [ 5]:  h=  2.7608 s=0.8920 v=1.0000
+	 v [ 0] h [ 9] s [ 6]:  h=  4.4528 s=0.9173 v=1.0000
+	 v [ 0] h [ 9] s [ 7]:  h=  6.8680 s=1.0000 v=1.0000
+	 v [ 0] h [10] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [10] s [ 1]:  h=  0.2861 s=0.8629 v=1.0000
+	 v [ 0] h [10] s [ 2]:  h=  0.6503 s=0.8703 v=1.0000
+	 v [ 0] h [10] s [ 3]:  h=  1.0927 s=0.8789 v=1.0000
+	 v [ 0] h [10] s [ 4]:  h=  1.6802 s=0.8892 v=1.0000
+	 v [ 0] h [10] s [ 5]:  h=  2.6462 s=0.9018 v=1.0000
+	 v [ 0] h [10] s [ 6]:  h=  4.5012 s=0.9245 v=1.0000
+	 v [ 0] h [10] s [ 7]:  h=  7.0937 s=1.0000 v=1.0000
+	 v [ 0] h [11] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [11] s [ 1]:  h=  0.1815 s=0.8741 v=1.0000
+	 v [ 0] h [11] s [ 2]:  h=  0.4133 s=0.8808 v=1.0000
+	 v [ 0] h [11] s [ 3]:  h=  0.7018 s=0.8887 v=1.0000
+	 v [ 0] h [11] s [ 4]:  h=  1.0979 s=0.8981 v=1.0000
+	 v [ 0] h [11] s [ 5]:  h=  1.8521 s=0.9095 v=1.0000
+	 v [ 0] h [11] s [ 6]:  h=  3.3205 s=0.9301 v=1.0000
+	 v [ 0] h [11] s [ 7]:  h=  5.0110 s=1.0000 v=1.0000
+	 v [ 0] h [12] s [ 0]:  h=  0.0000 s=1.0000 v=1.0000
+	 v [ 0] h [12] s [ 1]:  h=  0.0000 s=0.8786 v=1.0000
+	 v [ 0] h [12] s [ 2]:  h=  0.0000 s=0.8850 v=1.0000
+	 v [ 0] h [12] s [ 3]:  h=  0.0000 s=0.8926 v=1.0000
+	 ... 4508 more entries
+NoiseProfile:
+  Planes: 3
+  Noise function for plane 0: scale = 0.00002625772487983520, offset = 0.00000000899219387580
+  Noise function for plane 1: scale = 0.00002648966201266499, offset = 0.00000000890604390858
+  Noise function for plane 2: scale = 0.00002223392080567636, offset = 0.00000000848460758245
+NewRawImageDigest: <e4419a1b2035951918d13ebcd05885da>
+NextIFD = 0
+
+SubIFD 1: Offset = 148060, Entries = 22
+
+NewSubFileType: Main Image
+ImageWidth: 10810
+ImageLength: 6506
+BitsPerSample: 16 16 16
+Compression: JPEG
+PhotometricInterpretation: LinearRaw
+SamplesPerPixel: 3
+PlanarConfiguration: 1
+TileWidth: 160
+TileLength: 144
+TileOffsets: 3128 entries
+	   Offset [0] = 458762
+	   Offset [1] = 525656
+	   Offset [2] = 594288
+	   Offset [3] = 663370
+	   Offset [4] = 731022
+	   Offset [5] = 799340
+	   Offset [6] = 867090
+	   Offset [7] = 934770
+	   Offset [8] = 1002654
+	   Offset [9] = 1071558
+	   Offset [10] = 1141284
+	   Offset [11] = 1209942
+	   Offset [12] = 1278466
+	   Offset [13] = 1346746
+	   Offset [14] = 1414972
+	   Offset [15] = 1483458
+	   Offset [16] = 1551638
+	   Offset [17] = 1620446
+	   Offset [18] = 1688398
+	   Offset [19] = 1757300
+	   Offset [20] = 1826060
+	   Offset [21] = 1893784
+	   Offset [22] = 1961502
+	   Offset [23] = 2029734
+	   Offset [24] = 2098252
+	   Offset [25] = 2166688
+	   Offset [26] = 2234808
+	   Offset [27] = 2302872
+	   Offset [28] = 2371756
+	   Offset [29] = 2441040
+	   Offset [30] = 2510740
+	   Offset [31] = 2578828
+	   Offset [32] = 2647626
+	   Offset [33] = 2716910
+	   Offset [34] = 2785134
+	   Offset [35] = 2853674
+	   Offset [36] = 2923366
+	   Offset [37] = 2991878
+	   Offset [38] = 3061816
+	   Offset [39] = 3131208
+	   Offset [40] = 3200356
+	   Offset [41] = 3270160
+	   Offset [42] = 3338318
+	   Offset [43] = 3407134
+	   Offset [44] = 3476502
+	   Offset [45] = 3544864
+	   Offset [46] = 3613898
+	   Offset [47] = 3684174
+	   Offset [48] = 3753496
+	   Offset [49] = 3822400
+	   Offset [50] = 3891150
+	   Offset [51] = 3960338
+	   Offset [52] = 4029592
+	   Offset [53] = 4099076
+	   Offset [54] = 4168034
+	   Offset [55] = 4236700
+	   Offset [56] = 4305350
+	   Offset [57] = 4375042
+	   Offset [58] = 4444638
+	   Offset [59] = 4513242
+	   Offset [60] = 4582542
+	   Offset [61] = 4651070
+	   Offset [62] = 4719884
+	   Offset [63] = 4788994
+	   Offset [64] = 4858000
+	   Offset [65] = 4927146
+	   Offset [66] = 4996492
+	   Offset [67] = 5066560
+	   Offset [68] = 5115514
+	   Offset [69] = 5183520
+	   Offset [70] = 5252388
+	   Offset [71] = 5320560
+	   Offset [72] = 5388678
+	   Offset [73] = 5456580
+	   Offset [74] = 5524546
+	   Offset [75] = 5592238
+	   Offset [76] = 5659908
+	   Offset [77] = 5728936
+	   Offset [78] = 5798196
+	   Offset [79] = 5866138
+	   Offset [80] = 5934526
+	   Offset [81] = 6002792
+	   Offset [82] = 6071228
+	   Offset [83] = 6139472
+	   Offset [84] = 6208114
+	   Offset [85] = 6276544
+	   Offset [86] = 6345154
+	   Offset [87] = 6413200
+	   Offset [88] = 6482366
+	   Offset [89] = 6551222
+	   Offset [90] = 6619230
+	   Offset [91] = 6686964
+	   Offset [92] = 6754676
+	   Offset [93] = 6822766
+	   Offset [94] = 6890850
+	   Offset [95] = 6959554
+	   Offset [96] = 7029070
+	   Offset [97] = 7099068
+	   Offset [98] = 7167854
+	   Offset [99] = 7235844
+	 ... 3028 more entries
+TileByteCounts: 3128 entries
+	   Count [0] = 66893
+	   Count [1] = 68631
+	   Count [2] = 69082
+	   Count [3] = 67652
+	   Count [4] = 68318
+	   Count [5] = 67750
+	   Count [6] = 67679
+	   Count [7] = 67883
+	   Count [8] = 68904
+	   Count [9] = 69725
+	   Count [10] = 68658
+	   Count [11] = 68523
+	   Count [12] = 68279
+	   Count [13] = 68225
+	   Count [14] = 68486
+	   Count [15] = 68180
+	   Count [16] = 68808
+	   Count [17] = 67952
+	   Count [18] = 68902
+	   Count [19] = 68759
+	   Count [20] = 67724
+	   Count [21] = 67717
+	   Count [22] = 68232
+	   Count [23] = 68517
+	   Count [24] = 68436
+	   Count [25] = 68120
+	   Count [26] = 68064
+	   Count [27] = 68883
+	   Count [28] = 69283
+	   Count [29] = 69699
+	   Count [30] = 68088
+	   Count [31] = 68797
+	   Count [32] = 69283
+	   Count [33] = 68224
+	   Count [34] = 68540
+	   Count [35] = 69692
+	   Count [36] = 68512
+	   Count [37] = 69937
+	   Count [38] = 69391
+	   Count [39] = 69148
+	   Count [40] = 69804
+	   Count [41] = 68158
+	   Count [42] = 68816
+	   Count [43] = 69368
+	   Count [44] = 68361
+	   Count [45] = 69034
+	   Count [46] = 70276
+	   Count [47] = 69322
+	   Count [48] = 68903
+	   Count [49] = 68750
+	   Count [50] = 69187
+	   Count [51] = 69253
+	   Count [52] = 69484
+	   Count [53] = 68958
+	   Count [54] = 68666
+	   Count [55] = 68650
+	   Count [56] = 69691
+	   Count [57] = 69596
+	   Count [58] = 68604
+	   Count [59] = 69299
+	   Count [60] = 68527
+	   Count [61] = 68813
+	   Count [62] = 69110
+	   Count [63] = 69006
+	   Count [64] = 69145
+	   Count [65] = 69345
+	   Count [66] = 70068
+	   Count [67] = 48953
+	   Count [68] = 68005
+	   Count [69] = 68867
+	   Count [70] = 68171
+	   Count [71] = 68118
+	   Count [72] = 67901
+	   Count [73] = 67965
+	   Count [74] = 67691
+	   Count [75] = 67670
+	   Count [76] = 69028
+	   Count [77] = 69260
+	   Count [78] = 67942
+	   Count [79] = 68387
+	   Count [80] = 68266
+	   Count [81] = 68436
+	   Count [82] = 68244
+	   Count [83] = 68641
+	   Count [84] = 68429
+	   Count [85] = 68609
+	   Count [86] = 68045
+	   Count [87] = 69166
+	   Count [88] = 68855
+	   Count [89] = 68008
+	   Count [90] = 67733
+	   Count [91] = 67712
+	   Count [92] = 68090
+	   Count [93] = 68083
+	   Count [94] = 68704
+	   Count [95] = 69516
+	   Count [96] = 69998
+	   Count [97] = 68785
+	   Count [98] = 67989
+	   Count [99] = 69125
+	 ... 3028 more entries
+BlackLevelRepeatDim: Rows = 1, Cols = 1
+BlackLevel: 2048.00 2048.00 2048.00
+WhiteLevel: 65535 65535 65535
+DefaultScale: H = 1.0000 V = 1.0000
+DefaultCropOrigin: H = 0.00 V = 0.00
+DefaultCropSize: H = 10810.00 V = 6506.00
+AntiAliasStrength: 1.00
+BestQualityScale: 1.0000
+ActiveArea: T = 0 L = 0 B = 6506 R = 10810
+NoiseProfile:
+  Planes: 3
+  Noise function for plane 0: scale = 0.00002625772487983520, offset = 0.00000000899219387580
+  Noise function for plane 1: scale = 0.00002648966201266499, offset = 0.00000000890604390858
+  Noise function for plane 2: scale = 0.00002223392080567636, offset = 0.00000000848460758245
+NextIFD = 0
+
+SubIFD 2: Offset = 173518, Entries = 20
+
+NewSubFileType: Preview Image
+ImageWidth: 1024
+ImageLength: 530
+BitsPerSample: 8 8 8
+Compression: JPEG
+PhotometricInterpretation: YCbCr
+StripOffsets: Offset = 276908
+SamplesPerPixel: 3
+RowsPerStrip: 530
+StripByteCounts: Count = 23787
+PlanarConfiguration: 1
+YCbCrCoefficients: R = 0.299, G = 0.587, B = 0.114
+YCbCrSubSampling: H = 2, V = 2
+YCbCrPositioning: 0
+ReferenceBlackWhite: 0.0 255.0 128.0 255.0 128.0 255.0
+PreviewApplicationName: "Adobe Photoshop Camera Raw"
+PreviewApplicationVersion: "14.5"
+PreviewSettingsDigest: <cf8d0a0bf67d607e636e094cc78f8936>
+PreviewColorSpace: sRGB
+PreviewDateTime: "2022-07-06T12:16:43-07:00"
+NextIFD = 0
+
+SubIFD 3: Offset = 173918, Entries = 16
+
+NewSubFileType: Preview Image
+ImageWidth: 2048
+ImageLength: 1233
+BitsPerSample: 8 8 8
+Compression: Lossy JPEG
+PhotometricInterpretation: LinearRaw
+SamplesPerPixel: 3
+PlanarConfiguration: 1
+TileWidth: 512
+TileLength: 416
+TileOffsets: 12 entries
+	   Offset [0] = 300696
+	   Offset [1] = 304382
+	   Offset [2] = 308126
+	   Offset [3] = 311844
+	   Offset [4] = 315704
+	   Offset [5] = 327028
+	   Offset [6] = 339428
+	   Offset [7] = 353426
+	   Offset [8] = 368670
+	   Offset [9] = 395826
+	   Offset [10] = 414368
+	   Offset [11] = 424640
+TileByteCounts: 12 entries
+	   Count [0] = 3685
+	   Count [1] = 3743
+	   Count [2] = 3717
+	   Count [3] = 3860
+	   Count [4] = 11324
+	   Count [5] = 12399
+	   Count [6] = 13997
+	   Count [7] = 15243
+	   Count [8] = 27156
+	   Count [9] = 18541
+	   Count [10] = 10271
+	   Count [11] = 11909
+PreviewApplicationName: "Adobe Photoshop Camera Raw"
+PreviewApplicationVersion: "14.5"
+OpcodeList2: count = 256, offset = 174252
+CacheVersion = 0x100
+NextIFD = 0
+
+SubIFD 4: Offset = 174508, Entries = 16
+
+NewSubFileType: Preview Image
+ImageWidth: 512
+ImageLength: 308
+BitsPerSample: 8 8 8
+Compression: Lossy JPEG
+PhotometricInterpretation: LinearRaw
+SamplesPerPixel: 3
+PlanarConfiguration: 1
+TileWidth: 512
+TileLength: 308
+TileOffsets: Offset = 436550
+TileByteCounts: Count = 16682
+PreviewApplicationName: "Adobe Photoshop Camera Raw"
+PreviewApplicationVersion: "14.5"
+OpcodeList2: count = 256, offset = 174746
+CacheVersion = 0x100
+NextIFD = 0
+
+SubIFD 5: Offset = 175002, Entries = 17
+
+NewSubFileType: Preview Image
+ImageWidth: 256
+ImageLength: 154
+BitsPerSample: 8 8 8
+Compression: Lossy JPEG
+PhotometricInterpretation: LinearRaw
+SamplesPerPixel: 3
+PlanarConfiguration: 1
+TileWidth: 256
+TileLength: 154
+TileOffsets: Offset = 453232
+TileByteCounts: Count = 5529
+BlackLevel: 51.00 49.00 39.00
+PreviewApplicationName: "Adobe Photoshop Camera Raw"
+PreviewApplicationVersion: "14.5"
+OpcodeList2: count = 256, offset = 175276
+CacheVersion = 0x100
+NextIFD = 0
+
+Exif IFD: Offset = 147290, Entries = 41
+
+ExposureTime: 1/500 sec
+FNumber: f/16.00
+ExposureProgram: Aperture Priority
+ISOSpeedRatings: 100
+SensitivityType: Recommended Exposure Index (REI)
+RecommendedExposureIndex: 100
+ExifVersion: 2.31
+DateTimeOriginal: 2021:04:21 07:28:03
+DateTimeDigitized: 2021:04:21 07:28:03
+OffsetTime: "-07:00"
+OffsetTimeOriginal: "-07:00"
+OffsetTimeDigitized: "-07:00"
+ShutterSpeedValue: 1/500 sec
+ApertureValue: f/16.00
+BrightnessValue: 12.86
+ExposureBiasValue: 0.00
+MaxApertureValue: f/5.6
+MeteringMode: Pattern
+LightSource: Unknown
+Flash: 16
+	Flash did not fire
+	Compulsory flash suppression
+FocalLength: 300.0 mm
+SubsecTimeOriginal: "1"
+SubsecTimeDigitized: "1"
+ColorSpace: Uncalibrated
+FocalPlaneXResolutionExif: 2662.1849
+FocalPlaneYResolutionExif: 2662.1849
+FocalPlaneResolutionUnitExif: cm
+FileSource: DSC
+SceneType: A directly photographed image
+CustomRendered: Normal process
+ExposureMode: Auto exposure
+WhiteBalance: Auto white balance
+DigitalZoomRatio: 1.00
+FocalLengthIn35mmFilm: 300 mm
+SceneCaptureType: Standard
+Contrast: Normal
+Saturation: Normal
+Sharpness: Normal
+CameraSerialNumberExif: "03386400"
+LensSpecificationExif: 70.0-300.0 mm f/4.5-5.6
+LensModelExif: "FE 70-300mm F4.5-5.6 G OSS"
+NextIFD = 0
+
+GPS IFD: Offset = 148010, Entries = 3
+
+GPSStatus: "V"
+GPSMapDatum: "WGS-84"
+GPSDifferential: Measurement without differential correction
+NextIFD = 0
+
+  DNG image read time: 0.312 sec
+Is Small HDR DNG? no
+Negative supports NN demosaic? no
+Enhance applicability (no options): no options specified
+Enhance applicability (details only): unsupported file type
+Enhance applicability (super-res only): applicable
+Enhance applicability (details + SR): unsupported file type
+IsAppleProRAW: no
+IsSamsungGalaxyRaw: no
+HasDistortionOpcode: no
+HasLateralCAOpcode: no
+HasVignetteOpcode: no
+Stage 1 Image Statistics:
+Pixel Type: Short
+Pixel Range: 2054 27731
+  Linearization time: 0.032 sec
+Stage 2 Image Statistics:
+Pixel Type: Short
+Pixel Range: 0.000095 0.404540
+Negative:   0.000000%
+Zero:       0.000000%
+Positive: 100.000000%
+Average [0]: 0.052890
+Average [1]: 0.126505
+Average [2]: 0.069402
+Bayer Average: 0.093825
+  Interpolate time: 0.000 sec
+Stage 3 Image Statistics:
+Pixel Type: Short
+Pixel Range: 0.000095 0.404540
+Negative:   0.000000%
+Zero:       0.000000%
+Positive: 100.000000%
+Average [0]: 0.052890
+Average [1]: 0.126505
+Average [2]: 0.069402
+Bayer Average: 0.093825
+  Build pyramid time: 0.044 sec
+FlareForLog: 7.90723e-08
+AsShotProfile (Camera Matching): Sony ILCE-7RM4 Camera Standard.dcp
+ReadNegative time: 2.781 sec
+Flatten time: 0.000 sec
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   0.0000 stops
+  highlight exposure 2012 :   1.2303 stops
+  linear exposure 2012    :   1.2303 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.0000 stops
+  white exposure 2012     :   0.0000 stops
+  key                     :   0.1800
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   0.0000 stops
+  highlight exposure 2012 :   1.2303 stops
+  linear exposure 2012    :   1.2303 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.0000 stops
+  white exposure 2012     :   0.0000 stops
+  key                     :   0.1800
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   1.0438 stops
+  highlight exposure 2012 :   1.2303 stops
+  linear exposure 2012    :   1.5803 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.3500 stops
+  white exposure 2012     :   0.0000 stops
+  key                     :   0.4851
+cr_denoise_params:
+  Raw noise profile?    Yes
+  Setup:                Always Preview Quality
+  Quality:              Preview
+  Luminance NR:         0
+  Luma NR Detail:       50
+  Luma NR Contrast:     0
+  Color NR:             25
+  Color NR Detail:      50
+  Color NR Smoothness:  50
+  Full resolution?      no
+  Pyramid scale:        0.250000
+  Render scale:         1.000000
+  Raw render scale:     1.000000
+  Eff render scale:     0.250000
+  Noise curve scale:    0.000011 (    1 / 65535)
+  Noise curve bias:     0.000000 (    0 / 65535)
+  Sqrt bias:            0.000040 (    3 / 65535)
+  Flat noise:           0.001700 (  111 / 65535)
+  Adj flat noise luma:  0.000850 (   56 / 65535)
+  Adj flat noise color: 0.000601 (   39 / 65535)
+  Visual flat noise:    0.000425 (   28 / 65535)
+  Luma fast mode?       No
+  Luma edge thresh 1:       0.0,     0.0,     0.0,     0.0
+  Luma edge thresh 2:       0.0,     0.0,     0.0,     0.0
+  Luma smooth scale:    0.00000000, 0.00000000, 0.00000000, 0.00000000
+  Luma smooth amount:   0.00, 0.00, 0.00, 0.00
+  Color spatial sigma:  0.8314
+  Color spatial scale:  -0.3616
+  Color spatial radius: 2
+  Color range scaleY:   -3585223.6740
+  Color range scaleC1:  -5534387.4088
+  Color range scaleC2:  -2322538.6738
+  Noise scale Y:        1.2424
+  Noise scale C1:       1.0000
+  Noise scale C2:       1.5437
+  Color range sigma:    0.000425 (   28 / 65535)
+  Color HP Sigma 1:     41.7859
+  Color HP Sigma 2:     64.5035
+  Color HP Scale 1:     -0.000572717
+  Color HP Scale 2:     -0.000240344
+  Color detail factor:  0.2140
+  Needs luminance NR:   No
+  Needs color NR:       Yes
+  Needs color rank:     Yes
+  Needs color hi pass:  Yes
+  Color rank:           1024 (4, 0)
+  Color Matrix Optimize Factor: 1.00
+  MakeOptimizedYCCMatrix:
+  RGB to YCC matrix:
+	   0.0127   0.7649   0.2224
+	   0.5000  -0.3874  -0.1126
+	  -0.0082  -0.4918   0.5000
+  YCC to RGB matrix:
+	   1.0000   1.9745   0.0000
+	   1.0000  -0.0329  -0.4522
+	   1.0000  -0.0000   1.5552
+  Raw? Yes
+cr_stage_denoise constructor:
+  Number of levels: 2
+  Number of 16/32-bit temp planes: 10
+  Number of 16-bit temp luma NR planes: 0
+  Number of 32-bit temp planes: 5
+  Filter pad: 2
+cr_stage_denoise Prepare:
+  vPadding = 24
+  hPadding = 24
+ImageStats (log space):
+  value [0] =  -8.4379 (base 2), 0.002884 (linear)
+  value [1] =  -8.4328 (base 2), 0.002894 (linear)
+  value [2] =  -7.6934 (base 2), 0.004831 (linear)
+  value [3] =  -7.4654 (base 2), 0.005658 (linear)
+  value [4] =  -3.0372 (base 2), 0.121818 (linear)
+  value [5] =  -2.3431 (base 2), 0.197085 (linear)
+  value [6] =  -2.3173 (base 2), 0.200636 (linear)
+  value [7] =  -2.2914 (base 2), 0.204281 (linear)
+  value [8] =  -2.2880 (base 2), 0.204760 (linear)
+  Robust Black 00.01 pct, stops:  -8.4328
+  Robust White 99.99 pct, stops:  -2.2914
+  Robust Black 00.1 pct, stops:  -8.2967
+  Robust White 99.9 pct, stops:  -2.3007
+  DR absolute, stops :   6.1499
+  DR 0.01 pct, stops :   6.1414
+  DR 0.50 pct, stops :   5.3761
+  DR 1.00 pct, stops :   5.1223
+  Mean (log)         :  -3.1653
+  Central (log)      :  -3.0834
+  Mean clipped (log) :  -3.1653
+  Mean (linear)      :   0.1115
+  Mean clipped (lin) :   0.1115
+  Central (linear)   :   0.1180
+  White minus Mean   :   0.8773
+  alpha (key)        :   0.4853
+cr_tone_map_mask_params chooses linear sigma = 6.14 -> 2.45
+min sample: -8.432755
+max sample: -2.291372
+gap:        6.141384
+samples:    8
+spacing:    0.877340
+Sample  0 [ -9.3101,  -8.4328,  -7.5554) ...
+Sample  1 [ -8.4328,  -7.5554,  -6.6781) ...
+Sample  2 [ -7.5554,  -6.6781,  -5.8007) ...
+Sample  3 [ -6.6781,  -5.8007,  -4.9234) ...
+Sample  4 [ -5.8007,  -4.9234,  -4.0461) ...
+Sample  5 [ -4.9234,  -4.0461,  -3.1687) ...
+Sample  6 [ -4.0461,  -3.1687,  -2.2914) ...
+Sample  7 [ -3.1687,  -2.2914,  -1.4140) ...
+ImageStats (log space):
+  value [0] =  -5.6319 (base 2), 0.020167 (linear)
+  value [1] =  -5.6286 (base 2), 0.020212 (linear)
+  value [2] =  -5.1036 (base 2), 0.029085 (linear)
+  value [3] =  -4.9864 (base 2), 0.031546 (linear)
+  value [4] =  -3.1800 (base 2), 0.110341 (linear)
+  value [5] =  -2.5774 (base 2), 0.167540 (linear)
+  value [6] =  -2.5559 (base 2), 0.170053 (linear)
+  value [7] =  -2.5196 (base 2), 0.174388 (linear)
+  value [8] =  -2.5160 (base 2), 0.174829 (linear)
+  Robust Black 00.01 pct, stops:  -5.6286
+  Robust White 99.99 pct, stops:  -2.5196
+  Robust Black 00.1 pct, stops:  -5.5088
+  Robust White 99.9 pct, stops:  -2.5306
+  DR absolute, stops :   3.1159
+  DR 0.01 pct, stops :   3.1090
+  DR 0.50 pct, stops :   2.5476
+  DR 1.00 pct, stops :   2.4090
+  Mean (log)         :  -3.2351
+  Central (log)      :  -3.2203
+  Mean clipped (log) :  -3.2351
+  Mean (linear)      :   0.1062
+  Mean clipped (lin) :   0.1062
+  Central (linear)   :   0.1073
+  White minus Mean   :   0.7192
+  alpha (key)        :   0.3804
+  BuildToneMapMask: 0.180 sec
+PrepareRender time: 0.180 sec
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   0.0000 stops
+  highlight exposure 2012 :   1.3002 stops
+  linear exposure 2012    :   1.7302 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.4300 stops
+  white exposure 2012     :  -1.2000 stops
+  key                     :   0.1800
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   0.9429 stops
+  highlight exposure 2012 :   1.3002 stops
+  linear exposure 2012    :   2.0802 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.7800 stops
+  white exposure 2012     :  -1.2000 stops
+  key                     :   0.4851
+cr_denoise_params:
+  Raw noise profile?    Yes
+  Setup:                Auto
+  Quality:              Standard
+  Luminance NR:         0
+  Luma NR Detail:       50
+  Luma NR Contrast:     0
+  Color NR:             25
+  Color NR Detail:      50
+  Color NR Smoothness:  50
+  Full resolution?      yes
+  Pyramid scale:        1.000000
+  Render scale:         0.999957
+  Raw render scale:     1.000000
+  Eff render scale:     0.999957
+  Noise curve scale:    0.000011 (    1 / 65535)
+  Noise curve bias:     0.000000 (    0 / 65535)
+  Sqrt bias:            0.000038 (    3 / 65535)
+  Flat noise:           0.001659 (  109 / 65535)
+  Adj flat noise luma:  0.001659 (  109 / 65535)
+  Adj flat noise color: 0.001173 (   77 / 65535)
+  Visual flat noise:    0.001659 (  109 / 65535)
+  Luma fast mode?       No
+  Luma edge thresh 1:       0.0,     0.0,     0.0,     0.0
+  Luma edge thresh 2:       0.0,     0.0,     0.0,     0.0
+  Luma smooth scale:    0.00000000, 0.00000000, 0.00000000, 0.00000000
+  Luma smooth amount:   0.00, 0.00, 0.00, 0.00
+  Color spatial sigma:  3.2344
+  Color spatial scale:  -0.0239
+  Color spatial radius: 9
+  Color range scaleY:   -1011038.2902
+  Color range scaleC1:  -1453105.0239
+  Color range scaleC2:  -703458.0485
+  Noise scale Y:        1.1988
+  Noise scale C1:       1.0000
+  Noise scale C2:       1.4372
+  Color range sigma:    0.000830 (   54 / 65535)
+  Color HP Sigma 1:     40.7743
+  Color HP Sigma 2:     58.6024
+  Color HP Scale 1:     -0.000601489
+  Color HP Scale 2:     -0.000291185
+  Color detail factor:  0.2140
+  Needs luminance NR:   No
+  Needs color NR:       Yes
+  Needs color rank:     Yes
+  Needs color hi pass:  Yes
+  Color rank:           1024 (4, 0)
+  Color Matrix Optimize Factor: 1.00
+  MakeOptimizedYCCMatrix:
+  RGB to YCC matrix:
+	   0.0124   0.7542   0.2334
+	   0.5000  -0.3818  -0.1182
+	  -0.0081  -0.4919   0.5000
+  YCC to RGB matrix:
+	   1.0000   1.9752  -0.0000
+	   1.0000  -0.0325  -0.4745
+	   1.0000   0.0000   1.5332
+  Raw? Yes
+cr_stage_denoise constructor:
+  Number of levels: 2
+  Number of 16/32-bit temp planes: 10
+  Number of 16-bit temp luma NR planes: 0
+  Number of 32-bit temp planes: 5
+  Filter pad: 10
+GlobalRecoveryAmount-1: 0.440000
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   0.0000 stops
+  highlight exposure 2012 :   1.3002 stops
+  linear exposure 2012    :   1.3002 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.0000 stops
+  white exposure 2012     :   0.0000 stops
+  key                     :   0.1800
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   0.9429 stops
+  highlight exposure 2012 :   1.3002 stops
+  linear exposure 2012    :   1.6502 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.3500 stops
+  white exposure 2012     :   0.0000 stops
+  key                     :   0.4851
+GlobalRecoveryAmount-1: 0.440000
+cr_stage_tone_map setup:
+  global fill  amt:     -0.5700
+  global recov amt:     +0.4400
+  global clarity amt:   +0.1000
+  has local highlights? no
+  has local shadows?    no
+  has local clarity?    no
+  has local?            no
+  global only?          yes
+  clip at end?          yes
+  min base sample:      -10.2330
+  max base sample:      -3.0916
+  min mask sample:      -0.6208
+  max mask sample:      +3.1102
+  num base samples:     116
+  num mask samples:     60
+Sharpen params:
+  Amount:        0.4000
+  Radius:        1.2400
+  Detail:        0.2500
+  Mask:          0.0000
+  Baseline:      1.3300
+  
+  Pyramid scale: 1.0000
+  Scaled radius: 1.2400
+  
+  Big blur pixel radius:   4
+  Small blur pixel radius: 1
+  Lens blur pixel radius:  0.0
+  
+  Capture sharpen amount:    1.8583
+  Capture sharpen pin scale: 6.5328
+  
+  Shadow mask:    [0.03, 0.20]
+  Highlight mask: [0.85, 0.97]
+  
+  Edge pad:  0
+  Total pad: 16
+  Effective blur kernel std dev: 0.8768
+  
+  fEdgeRadius0 = 0
+  fEdgeRadius1 = 0
+  fEdgeWidth   = 0.000000
+  fEdgeWidth0  = 0.000000
+  fEdgeWidth1  = 0.000000
+  fEdgeMaxRadius = 0
+
+  fBlendScale0  = 5.882353
+  fBlendOffset0 = -0.176471
+  fBlendScale1  = -8.333333
+  fBlendOffset1 = 8.083333
+  
+cr_stage_denoise Prepare:
+  vPadding = 56
+  hPadding = 56
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   0.0000 stops
+  highlight exposure 2012 :   1.3049 stops
+  linear exposure 2012    :   1.3049 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.0000 stops
+  white exposure 2012     :   0.0000 stops
+  key                     :   0.1800
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   0.9319 stops
+  highlight exposure 2012 :   1.3049 stops
+  linear exposure 2012    :   1.6549 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.3500 stops
+  white exposure 2012     :   0.0000 stops
+  key                     :   0.4851
+cr_denoise_params:
+  Raw noise profile?    Yes
+  Setup:                Always Preview Quality
+  Quality:              Preview
+  Luminance NR:         0
+  Luma NR Detail:       50
+  Luma NR Contrast:     0
+  Color NR:             25
+  Color NR Detail:      50
+  Color NR Smoothness:  50
+  Full resolution?      yes
+  Pyramid scale:        1.000000
+  Render scale:         1.000000
+  Raw render scale:     1.000000
+  Eff render scale:     1.000000
+  Noise curve scale:    0.000011 (    1 / 65535)
+  Noise curve bias:     0.000000 (    0 / 65535)
+  Sqrt bias:            0.000038 (    3 / 65535)
+  Flat noise:           0.001656 (  109 / 65535)
+  Adj flat noise luma:  0.001656 (  109 / 65535)
+  Adj flat noise color: 0.001171 (   77 / 65535)
+  Visual flat noise:    0.001656 (  109 / 65535)
+  Luma fast mode?       No
+  Luma edge thresh 1:       0.0,     0.0,     0.0,     0.0
+  Luma edge thresh 2:       0.0,     0.0,     0.0,     0.0
+  Luma smooth scale:    0.00000000, 0.00000000, 0.00000000, 0.00000000
+  Luma smooth amount:   0.00, 0.00, 0.00, 0.00
+  Color spatial sigma:  3.2442
+  Color spatial scale:  -0.0238
+  Color spatial radius: 9
+  Color range scaleY:   -1006339.0846
+  Color range scaleC1:  -1457914.5002
+  Color range scaleC2:  -694634.9413
+  Noise scale Y:        1.2036
+  Noise scale C1:       1.0000
+  Noise scale C2:       1.4487
+  Color range sigma:    0.000828 (   54 / 65535)
+  Color HP Sigma 1:     0.0000
+  Color HP Sigma 2:     0.0000
+  Color HP Scale 1:     0.000000000
+  Color HP Scale 2:     0.000000000
+  Color detail factor:  0.2140
+  Needs luminance NR:   No
+  Needs color NR:       Yes
+  Needs color rank:     No
+  Needs color hi pass:  No
+  Color rank:           0 (0, 0)
+  Color Matrix Optimize Factor: 1.00
+  MakeOptimizedYCCMatrix:
+  RGB to YCC matrix:
+	   0.0125   0.7571   0.2304
+	   0.5000  -0.3833  -0.1167
+	  -0.0081  -0.4919   0.5000
+  YCC to RGB matrix:
+	   1.0000   1.9751  -0.0000
+	   1.0000  -0.0325  -0.4684
+	   1.0000  -0.0000   1.5392
+  Raw? Yes
+cr_stage_denoise constructor:
+  Number of levels: 2
+  Number of 16/32-bit temp planes: 8
+  Number of 16-bit temp luma NR planes: 0
+  Number of 32-bit temp planes: 5
+  Filter pad: 10
+cr_stage_denoise Prepare:
+  vPadding = 56
+  hPadding = 56
+cr_stage_tone_map setup:
+  global fill  amt:     -0.5700
+  global recov amt:     +0.4400
+  global clarity amt:   +0.1000
+  has local highlights? no
+  has local shadows?    no
+  has local clarity?    no
+  has local?            no
+  global only?          yes
+  clip at end?          no
+  min base sample:      -10.2330
+  max base sample:      -3.0916
+  min mask sample:      -0.6208
+  max mask sample:      +3.1102
+  num base samples:     116
+  num mask samples:     60
+Render time: 1.914 sec
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   0.0000 stops
+  highlight exposure 2012 :   1.3002 stops
+  linear exposure 2012    :   1.7302 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.4300 stops
+  white exposure 2012     :  -1.2000 stops
+  key                     :   0.1800
+cr_exposure_info::Setup2012
+  auto exposure 2012      :   0.9429 stops
+  highlight exposure 2012 :   1.3002 stops
+  linear exposure 2012    :   2.0802 stops
+  rolloff exposure 2012   :   0.0000 stops
+  black exposure 2012     :   0.7800 stops
+  white exposure 2012     :  -1.2000 stops
+  key                     :   0.4851
+cr_denoise_params:
+  Raw noise profile?    Yes
+  Setup:                Auto
+  Quality:              Preview
+  Luminance NR:         0
+  Luma NR Detail:       50
+  Luma NR Contrast:     0
+  Color NR:             25
+  Color NR Detail:      50
+  Color NR Smoothness:  50
+  Full resolution?      no
+  Pyramid scale:        0.062500
+  Render scale:         0.387086
+  Raw render scale:     1.000000
+  Eff render scale:     0.024193
+  Noise curve scale:    0.000011 (    1 / 65535)
+  Noise curve bias:     0.000000 (    0 / 65535)
+  Sqrt bias:            0.000038 (    3 / 65535)
+  Flat noise:           0.001659 (  109 / 65535)
+  Adj flat noise luma:  0.000415 (   27 / 65535)
+  Adj flat noise color: 0.000293 (   19 / 65535)
+  Visual flat noise:    0.000040 (    3 / 65535)
+  Luma fast mode?       No
+  Luma edge thresh 1:       0.0,     0.0,     0.0,     0.0
+  Luma edge thresh 2:       0.0,     0.0,     0.0,     0.0
+  Luma smooth scale:    0.00000000, 0.00000000, 0.00000000, 0.00000000
+  Luma smooth amount:   0.00, 0.00, 0.00, 0.00
+  Color spatial sigma:  0.2021
+  Color spatial scale:  -6.1179
+  Color spatial radius: 1
+  Color range scaleY:   -16176612.6439
+  Color range scaleC1:  -23249680.3830
+  Color range scaleC2:  -11255328.7753
+  Noise scale Y:        1.1988
+  Noise scale C1:       1.0000
+  Noise scale C2:       1.4372
+  Color range sigma:    0.000207 (   14 / 65535)
+  Color HP Sigma 1:     40.7743
+  Color HP Sigma 2:     58.6024
+  Color HP Scale 1:     -0.000601489
+  Color HP Scale 2:     -0.000291185
+  Color detail factor:  0.2140
+  Needs luminance NR:   No
+  Needs color NR:       No
+  Needs color rank:     Yes
+  Needs color hi pass:  Yes
+  Color rank:           1024 (4, 0)
+  Color Matrix Optimize Factor: 1.00
+  MakeOptimizedYCCMatrix:
+  RGB to YCC matrix:
+	   0.0124   0.7542   0.2334
+	   0.5000  -0.3818  -0.1182
+	  -0.0081  -0.4919   0.5000
+  YCC to RGB matrix:
+	   1.0000   1.9752  -0.0000
+	   1.0000  -0.0325  -0.4745
+	   1.0000   0.0000   1.5332
+  Raw? Yes
+GlobalRecoveryAmount-1: 0.440000
+apiSDRHighlights < 100, h 0.440000 -> 0.720000
+apiSDRShadows > -100, s -0.570000 -> 0.215000
+cr_stage_tone_map setup:
+  global fill  amt:     +0.2150
+  global recov amt:     +0.7200
+  global clarity amt:   +0.1000
+  has local highlights? no
+  has local shadows?    no
+  has local clarity?    no
+  has local?            no
+  global only?          yes
+  clip at end?          no
+  min base sample:      -10.2330
+  max base sample:      -3.0916
+  min mask sample:      -0.6208
+  max mask sample:      +3.1102
+  num base samples:     116
+  num mask samples:     60
+  New Encode JPEG time: 0.000 sec
+BuildJPEGPreview: 0.016 sec
+  New Encode JPEG time: 0.112 sec
+Write JPEG time: 0.113 sec
+Terminate GPU system
+cr_sdk_terminate
