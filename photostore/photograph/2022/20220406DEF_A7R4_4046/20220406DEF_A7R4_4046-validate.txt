@@ -104,7 +104,6 @@ MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius5Compute,1024,1024
 Apple M1: Building compute pipeline state (30/253): BlurAcrossOrDown1PlaneRadius6Compute
 MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius6Compute,1024,1024
 Apple M1: Building compute pipeline state (31/253): BlurAcrossOrDown1PlaneRadiusNCompute
-Intel Compiler: no
 MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadiusNCompute,1024,1024
 Apple M1: Building compute pipeline state (32/253): BlurAcrossOrDown4PlaneRadius1Compute
 MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius1Compute,1024,1024
@@ -263,6 +262,7 @@ MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNC
 Apple M1: Building compute pipeline state (109/253): BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNMovingAverageCompute
 MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNMovingAverageCompute,1024,1024
 Apple M1: Building compute pipeline state (110/253): BoxBlurDown3PlanePlusComputeABRadius1Compute
+Intel Compiler: no
 MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius1Compute,1024,1024
 Apple M1: Building compute pipeline state (111/253): BoxBlurDown3PlanePlusComputeABRadius2Compute
 MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius2Compute,1024,1024
@@ -556,7 +556,7 @@ GPU3 Hard Status Result (part 2): success
 GPU3 Soft Status Result (part 2): success
 GPU4 Hard Status Result (part 2): success
 GPU4 Soft Status Result (part 2): success
-Profile self-check: lcpCount=2613, dcpCount=3276
+Profile self-check: lcpCount=2606, dcpCount=3258
 
 Uses little-endian byte order
 Magic number = 42
@@ -604,12 +604,13 @@ XMP:     xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
 XMP:     xmlns:crd="http://ns.adobe.com/camera-raw-defaults/1.0/"
 XMP:     xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"
 XMP:     xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
+XMP:     xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
 XMP:     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
 XMP:    xmp:Rating="2"
 XMP:    xmp:CreatorTool="Adobe Photoshop Camera Raw 14.5 (Windows)"
 XMP:    xmp:ModifyDate="2022-07-06T11:53:43-07:00"
 XMP:    xmp:CreateDate="2022-04-06T06:43:41-08:00"
-XMP:    xmp:MetadataDate="2022-07-06T11:53:43-07:00"
+XMP:    xmp:MetadataDate="2022-07-11T10:45:07-07:00"
 XMP:    dc:format="image/dng"
 XMP:    aux:SerialNumber="03386400"
 XMP:    aux:LensInfo="350/10 350/10 28/10 28/10"
@@ -622,12 +623,13 @@ XMP:    photoshop:State="Washington"
 XMP:    photoshop:Country="United States of America"
 XMP:    xmpMM:DocumentID="xmp.did:bf1252c7-fbbe-3b41-993d-dacce7d34c04"
 XMP:    xmpMM:OriginalDocumentID="6CC60D62BCF9031202493CB8A8A9E3E5"
-XMP:    xmpMM:InstanceID="xmp.iid:bf1252c7-fbbe-3b41-993d-dacce7d34c04"
+XMP:    xmpMM:InstanceID="xmp.iid:c260f748-1c60-4527-8fc0-18140be60af5"
 XMP:    crd:CameraProfile="Camera Vivid"
 XMP:    crd:LookName=""
 XMP:    Iptc4xmpCore:CountryCode="USA"
 XMP:    xmpRights:Marked="True"
-XMP:    crs:Version="14.5"
+XMP:    tiff:Orientation="1"
+XMP:    crs:Version="15.0"
 XMP:    crs:ProcessVersion="11.0"
 XMP:    crs:WhiteBalance="Shade"
 XMP:    crs:Temperature="7500"
@@ -636,12 +638,12 @@ XMP:    crs:Exposure2012="0.00"
 XMP:    crs:Contrast2012="0"
 XMP:    crs:Highlights2012="-8"
 XMP:    crs:Shadows2012="+47"
-XMP:    crs:Whites2012="-67"
+XMP:    crs:Whites2012="-100"
 XMP:    crs:Blacks2012="-13"
 XMP:    crs:Texture="+17"
 XMP:    crs:Clarity2012="0"
 XMP:    crs:Dehaze="0"
-XMP:    crs:Vibrance="+20"
+XMP:    crs:Vibrance="+25"
 XMP:    crs:Saturation="0"
 XMP:    crs:ParametricShadows="0"
 XMP:    crs:ParametricDarks="0"
@@ -730,6 +732,12 @@ XMP:    crs:GreenHue="0"
 XMP:    crs:GreenSaturation="0"
 XMP:    crs:BlueHue="0"
 XMP:    crs:BlueSaturation="0"
+XMP:    crs:HDREditMode="1"
+XMP:    crs:SDRBrightness="0"
+XMP:    crs:SDRBlend="0"
+XMP:    crs:SDRHighlights="0"
+XMP:    crs:SDRShadows="0"
+XMP:    crs:SDRWhites="0"
 XMP:    crs:OverrideLookVignette="False"
 XMP:    crs:ToneCurveName2012="Linear"
 XMP:    crs:CameraProfile="Adobe Standard"
@@ -791,6 +799,18 @@ XMP:       stEvt:instanceID="xmp.iid:bf1252c7-fbbe-3b41-993d-dacce7d34c04"
 XMP:       stEvt:when="2022-07-06T11:53:43-07:00"
 XMP:       stEvt:softwareAgent="Adobe Photoshop Camera Raw 14.5 (Windows)"
 XMP:       stEvt:changed="/"/>
+XMP:      <rdf:li
+XMP:       stEvt:action="saved"
+XMP:       stEvt:instanceID="xmp.iid:f1d6acc7-f21f-4dc5-a7cf-29f7b1a54e2c"
+XMP:       stEvt:when="2022-07-11T10:44:02-07:00"
+XMP:       stEvt:softwareAgent="Adobe Photoshop Camera Raw 15.0 (Macintosh)"
+XMP:       stEvt:changed="/metadata"/>
+XMP:      <rdf:li
+XMP:       stEvt:action="saved"
+XMP:       stEvt:instanceID="xmp.iid:c260f748-1c60-4527-8fc0-18140be60af5"
+XMP:       stEvt:when="2022-07-11T10:45:07-07:00"
+XMP:       stEvt:softwareAgent="Adobe Photoshop Camera Raw 15.0 (Macintosh)"
+XMP:       stEvt:changed="/metadata"/>
 XMP:     </rdf:Seq>
 XMP:    </xmpMM:History>
 XMP:    <xmpMM:DerivedFrom
@@ -931,7 +951,7 @@ XMP:      </rdf:Alt>
 XMP:     </crs:Group>
 XMP:     <crs:Parameters>
 XMP:      <rdf:Description
-XMP:       crs:Version="14.5"
+XMP:       crs:Version="15.0"
 XMP:       crs:ProcessVersion="11.0"
 XMP:       crs:ConvertToGrayscale="False"
 XMP:       crs:CameraProfile="Adobe Standard"
@@ -1005,14 +1025,7 @@ XMP:
 XMP:                                                                                                     
 XMP:                                                                                                     
 XMP:                                                                                                     
-XMP:                                                                                                     
-XMP:                                                                                                     
-XMP:                                                                                                     
-XMP:                                                                                                     
-XMP:                                                                                                     
-XMP:                                                                                                     
-XMP:                                                                                                     
-XMP:                                                        
+XMP:                                 
 XMP: <?xpacket end="w"?>
 Copyright: "[A9]2022 David Franzen"
 ExifIFD: 219640
@@ -4002,7 +4015,7 @@ Planes: 3
 	min_valid_radius: 0
 	max_valid_radius: 1
 	Use radial reciprocal? no
-  DNG image read time: 0.101 sec
+  DNG image read time: 0.103 sec
 1 opcode
 
 Opcode: cr_opcode_WarpRectilinear, minVersion = 1.3.0.0, flags = 0
@@ -4042,7 +4055,7 @@ HasVignetteOpcode: no
 Stage 1 Image Statistics:
 Pixel Type: Short
 Pixel Range: 0 16383
-  Linearization time: 0.040 sec
+  Linearization time: 0.046 sec
 Stage 2 Image Statistics:
 Pixel Type: Short
 Pixel Range: -0.032259 1.000000
@@ -4061,8 +4074,8 @@ Green split profile:
 cr_stage_bayer_core3 demosaic:
   Refine scale: 0.8733
   Blend scale:  0.1766
-    InterpolateBayer: 0.341 sec
-  Interpolate time: 0.493 sec
+    InterpolateBayer: 0.342 sec
+  Interpolate time: 0.500 sec
 Stage 3 Image Statistics:
 Pixel Type: Short
 Pixel Range: -0.032259 1.000000
@@ -4073,10 +4086,10 @@ Average [0]: 0.077487
 Average [1]: 0.147664
 Average [2]: 0.069628
 Bayer Average: 0.110611
-  Build pyramid time: 0.041 sec
+  Build pyramid time: 0.042 sec
 FlareForLog: 9.34093e-08
 AsShotProfile (Camera Matching): Sony ILCE-7RM4 Camera Vivid.dcp
-ReadNegative time: 1.804 sec
+ReadNegative time: 1.814 sec
   Candidate (score = 117) (file = 'SONY (Sony FE 35mm F2.8 ZA) - RAW.lcp'): 
       Profile info:
         Author               : Adobe (www.adobe.com)
@@ -4301,23 +4314,23 @@ ImageStats (log space):
   Central (linear)   :   0.0970
   White minus Mean   :   2.7857
   alpha (key)        :   0.1751
-  BuildToneMapMask: 0.290 sec
-PrepareRender time: 0.290 sec
+  BuildToneMapMask: 0.292 sec
+PrepareRender time: 0.292 sec
 cr_exposure_info::Setup2012
   auto exposure 2012      :   0.0000 stops
   highlight exposure 2012 :   1.5718 stops
   linear exposure 2012    :   1.5718 stops
   rolloff exposure 2012   :   0.0000 stops
   black exposure 2012     :   0.0000 stops
-  white exposure 2012     :   1.3400 stops
+  white exposure 2012     :   2.0000 stops
   key                     :   0.1800
 cr_exposure_info::Setup2012
   auto exposure 2012      :  -1.5719 stops
   highlight exposure 2012 :   1.5718 stops
-  linear exposure 2012    :  -0.0001 stops
-  rolloff exposure 2012   :   1.9219 stops
+  linear exposure 2012    :   1.9218 stops
+  rolloff exposure 2012   :   0.0000 stops
   black exposure 2012     :   0.3500 stops
-  white exposure 2012     :   1.3400 stops
+  white exposure 2012     :   2.0000 stops
   key                     :   0.1808
 cr_denoise_params:
   Raw noise profile?    Yes
@@ -4431,7 +4444,7 @@ Sharpen params:
   Small blur pixel radius: 1
   Lens blur pixel radius:  0.0
   
-  Capture sharpen amount:    2.7410
+  Capture sharpen amount:    1.3705
   Capture sharpen pin scale: 9.1609
   
   Shadow mask:    [0.03, 0.20]
@@ -4555,22 +4568,22 @@ cr_stage_tone_map setup:
   max mask sample:      +2.3745
   num base samples:     158
   num mask samples:     88
-Render time: 4.322 sec
+Render time: 5.461 sec
 cr_exposure_info::Setup2012
   auto exposure 2012      :   0.0000 stops
   highlight exposure 2012 :   1.5718 stops
   linear exposure 2012    :   1.5718 stops
   rolloff exposure 2012   :   0.0000 stops
   black exposure 2012     :   0.0000 stops
-  white exposure 2012     :   1.3400 stops
+  white exposure 2012     :   2.0000 stops
   key                     :   0.1800
 cr_exposure_info::Setup2012
   auto exposure 2012      :  -1.5719 stops
   highlight exposure 2012 :   1.5718 stops
-  linear exposure 2012    :  -0.0001 stops
-  rolloff exposure 2012   :   1.9219 stops
+  linear exposure 2012    :   1.9218 stops
+  rolloff exposure 2012   :   0.0000 stops
   black exposure 2012     :   0.3500 stops
-  white exposure 2012     :   1.3400 stops
+  white exposure 2012     :   2.0000 stops
   key                     :   0.1808
 cr_denoise_params:
   Raw noise profile?    Yes
@@ -4633,6 +4646,12 @@ cr_denoise_params:
 GlobalRecoveryAmount-1: 0.080000
 apiSDRHighlights < 100, h 0.080000 -> 0.540000
 apiSDRShadows > -100, s 0.470000 -> 0.735000
+--- using auto tone map method ---
+fCurve.k1 = 0.578344
+fCurve.k2 = 9.945189
+fCurve.k3 = 0.829997
+fCurve.k4 = 76.122257
+fCurve.yHDRip = 101.150856
 cr_stage_tone_map setup:
   global fill  amt:     +0.7350
   global recov amt:     +0.5400
@@ -4649,9 +4668,9 @@ cr_stage_tone_map setup:
   max mask sample:      +2.3745
   num base samples:     158
   num mask samples:     88
-  New Encode JPEG time: 0.000 sec
-BuildJPEGPreview: 0.031 sec
-  New Encode JPEG time: 0.126 sec
-Write JPEG time: 0.129 sec
+  New Encode JPEG time: 0.003 sec
+BuildJPEGPreview: 0.039 sec
+  New Encode JPEG time: 0.114 sec
+Write JPEG time: 0.117 sec
 Terminate GPU system
 cr_sdk_terminate
